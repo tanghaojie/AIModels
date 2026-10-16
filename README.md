@@ -4,21 +4,32 @@
 
 ## 项目目录
 
-| 目录 | 内容 |
-| --- | --- |
-| `cd-tower-gpt-56/` | 早期成都大厦模型与参考资料 |
-| `chengdu-oppo-tower/` | 成都 OPPO 大厦 |
-| `Shanghai-World-Financial-Center/` | 上海环球金融中心 |
-| `cctv/` | 央视总部大楼 |
-| `成都天府国际机场/` | 天府机场早期素材与代码 |
-| `chengdu-tianfu-airport/` | 成都天府国际机场交付项目 |
-| `shanghai-tower/` | 上海中心大厦 |
-| `taipei-101/` | 台北 101 |
-| `beijing-ncpa/` | 北京国家大剧院及质量变体 |
-| `geo-context/` | 地标周边空间数据与资源 |
-| `tools/` | 可复用空间数据工具 |
+| 分类 | 目录 | 内容 |
+| --- | --- | --- |
+| 模型 | `models/` | 完整模型项目，包括 GLB、Blender 源文件、项目脚本、参考资料和验收记录 |
+| 模型附件 | `model-assets/` | 可独立复用的周边场景、空间数据及配套资源 |
+| 工具 | `tools/` | 可复用的生成与校验工具 |
 
-各项目的使用方式、参考来源及限制见其自身 README、定位文件与验证记录。后续新模型直接在本仓库中新建独立目录管理。
+```text
+models/
+  cd-tower-gpt-56/
+  chengdu-oppo-tower/
+  Shanghai-World-Financial-Center/
+  cctv/
+  成都天府国际机场/
+  chengdu-tianfu-airport/
+  shanghai-tower/
+  taipei-101/
+  beijing-ncpa/
+model-assets/
+  geo-context/
+tools/
+  geo-context/
+```
+
+各项目的使用方式、参考来源及限制见其自身 README、定位文件与验证记录。后续新模型在 `models/` 下新建独立项目目录，通用附件放入 `model-assets/`，通用工具放入 `tools/`。各模型项目内部文件保持在一起，便于项目内相对路径继续使用。
+
+分类后的发布地址带相应目录前缀，例如 `/models/taipei-101/taipei-101.glb` 和 `/model-assets/geo-context/taipei-101-v1/scene.json`。历史 sample-data 发布地址保留原样。
 
 ## 首次迁移
 

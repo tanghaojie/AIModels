@@ -10,12 +10,12 @@
 python -m venv .venv
 .venv/bin/pip install -r tools/geo-context/requirements.txt
 .venv/bin/python tools/geo-context/fetch_context.py --config tools/geo-context/configs/taipei-101.json --output downloads/taipei-101
-.venv/bin/python tools/geo-context/build_context.py --config tools/geo-context/configs/taipei-101.json --buildings downloads/taipei-101/building.geojson --parts downloads/taipei-101/building_part.geojson --output geo-context/taipei-101-v2
-.venv/bin/python tools/geo-context/validate_context.py geo-context/taipei-101-v2
+.venv/bin/python tools/geo-context/build_context.py --config tools/geo-context/configs/taipei-101.json --buildings downloads/taipei-101/building.geojson --parts downloads/taipei-101/building_part.geojson --output model-assets/geo-context/taipei-101-v2
+.venv/bin/python tools/geo-context/validate_context.py model-assets/geo-context/taipei-101-v2
 .venv/bin/python -m unittest discover -s tools/geo-context -p 'test_*.py' -v
 ```
 
-Windows 使用 `.venv\Scripts\python.exe` 和 `.venv\Scripts\pip.exe`。如网络使用 HTTPS 代理，下载脚本读取标准代理配置，不保存或输出代理凭据。
+以上命令从仓库根目录运行，模型位于 `models/`，生成的周边附件位于 `model-assets/geo-context/`。Windows 使用 `.venv\Scripts\python.exe` 和 `.venv\Scripts\pip.exe`。如网络使用 HTTPS 代理，下载脚本读取标准代理配置，不保存或输出代理凭据。
 
 输出目录必须为空，使用新版本目录，避免覆盖已发布资产。已发布 `sources/*.geojson.gz` 带数据版本，可直接用于重复生成。原始官方 CLI 下载文件也可使用，但需保留其 `.state` 发布版本记录。
 
@@ -42,7 +42,7 @@ Python 验证覆盖所有瓦片：二进制结构、引用、法线/切线、三
 
 ```bash
 npm install --prefix /tmp/geo-gltf-check gltf-validator
-NODE_PATH=/tmp/geo-gltf-check/node_modules node tools/geo-context/validate-gltf.cjs geo-context/taipei-101-v2
+NODE_PATH=/tmp/geo-gltf-check/node_modules node tools/geo-context/validate-gltf.cjs model-assets/geo-context/taipei-101-v2
 ```
 
 这属于资产检查，不执行 Sight 前端或浏览器自动化测试。最终环绕、昼夜、三档质量与录屏效果由维护者在 Sight 人工验收。

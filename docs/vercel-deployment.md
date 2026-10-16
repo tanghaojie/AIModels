@@ -36,15 +36,16 @@ git push origin master
 
 ## 资源地址和跨域访问
 
-发布成功后，使用实际生产域名拼接原相对路径，例如：
+发布成功后，使用实际生产域名拼接分类后的仓库相对路径，例如：
 
 ```text
-https://<实际生产域名>/taipei-101/taipei-101.glb
-https://<实际生产域名>/shanghai-tower/shanghai-tower.glb
-https://<实际生产域名>/beijing-ncpa/beijing-ncpa-compatible.glb
+https://<实际生产域名>/models/taipei-101/taipei-101.glb
+https://<实际生产域名>/models/shanghai-tower/shanghai-tower.glb
+https://<实际生产域名>/models/beijing-ncpa/beijing-ncpa-compatible.glb
+https://<实际生产域名>/model-assets/geo-context/taipei-101-v1/scene.json
 ```
 
-保留目录及文件名大小写。原项目文档里的 sample-data 地址不会自动切换，使用时换成 AIModels 的生产域名。
+保留目录及文件名大小写。原项目文档里的 sample-data 地址不会自动切换，使用 AIModels 时需替换生产域名并增加对应分类前缀。历史场景和工具配置中的 `model_url` 也需按实际新模型地址更新。
 
 如果资源需要供 Cesium / Cyber-Sight 直接加载，在 Settings → Deployment Protection 中确认生产地址允许匿名访问；sample-data 当前也未启用 SSO / 密码保护。配置中的 `Access-Control-Allow-Origin: *` 负责跨域访问，无法绕过登录保护。
 
@@ -58,8 +59,8 @@ https://<实际生产域名>/beijing-ncpa/beijing-ncpa-compatible.glb
 4. 在实际 Cesium / Cyber-Sight 页面加载新地址，检查定位、比例与昼夜效果。项目里的历史验收记录不替代此次发布检查。
 
 ```powershell
-curl.exe -I "https://<实际生产域名>/taipei-101/taipei-101.glb"
-Get-FileHash -LiteralPath .\taipei-101\taipei-101.glb -Algorithm SHA256
+curl.exe -I "https://<实际生产域名>/models/taipei-101/taipei-101.glb"
+Get-FileHash -LiteralPath .\models\taipei-101\taipei-101.glb -Algorithm SHA256
 ```
 
 ## 官方文档
