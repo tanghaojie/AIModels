@@ -2,6 +2,8 @@
 
 本仓库采用与 sample-data 相同的无框架静态托管方式。2026-10-16 查询到 sample-data 的 Vercel 项目框架为 `null`，生产部署为 `READY`，现有生产域名包括 `sample-data-jt.vercel.app`。
 
+AIModels 文件发布根地址：[https://jt-ai-models.vercel.app/](https://jt-ai-models.vercel.app/)。分类子目录和各模型文件完整地址见 [模型与发布地址清单](model-catalog.md)。
+
 ## 首次连接 GitHub
 
 1. 打开 [Vercel 新建项目](https://vercel.com/new)，选择管理 sample-data 的同一团队。
@@ -36,13 +38,13 @@ git push origin master
 
 ## 资源地址和跨域访问
 
-发布成功后，使用实际生产域名拼接分类后的仓库相对路径，例如：
+使用发布根地址拼接分类后的仓库相对路径，例如：
 
 ```text
-https://<实际生产域名>/models/taipei-101/taipei-101.glb
-https://<实际生产域名>/models/shanghai-tower/shanghai-tower.glb
-https://<实际生产域名>/models/beijing-ncpa/beijing-ncpa-compatible.glb
-https://<实际生产域名>/model-assets/geo-context/taipei-101-v1/scene.json
+https://jt-ai-models.vercel.app/models/taipei-101/taipei-101.glb
+https://jt-ai-models.vercel.app/models/shanghai-tower/shanghai-tower.glb
+https://jt-ai-models.vercel.app/models/beijing-ncpa/beijing-ncpa-compatible.glb
+https://jt-ai-models.vercel.app/model-assets/geo-context/taipei-101-v1/scene.json
 ```
 
 保留目录及文件名大小写。原项目文档里的 sample-data 地址不会自动切换，使用 AIModels 时需替换生产域名并增加对应分类前缀。历史场景和工具配置中的 `model_url` 也需按实际新模型地址更新。
@@ -59,7 +61,7 @@ https://<实际生产域名>/model-assets/geo-context/taipei-101-v1/scene.json
 4. 在实际 Cesium / Cyber-Sight 页面加载新地址，检查定位、比例与昼夜效果。项目里的历史验收记录不替代此次发布检查。
 
 ```powershell
-curl.exe -I "https://<实际生产域名>/models/taipei-101/taipei-101.glb"
+curl.exe -I "https://jt-ai-models.vercel.app/models/taipei-101/taipei-101.glb"
 Get-FileHash -LiteralPath .\models\taipei-101\taipei-101.glb -Algorithm SHA256
 ```
 

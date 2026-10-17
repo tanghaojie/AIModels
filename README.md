@@ -2,6 +2,12 @@
 
 集中管理 AI 建筑建模项目：GLB 成品、Blender 源文件、建模与导出代码、定位数据、预览图和验收记录。
 
+## 发布地址与模型清单
+
+文件发布根地址：[https://jt-ai-models.vercel.app/](https://jt-ai-models.vercel.app/)。文件地址按“发布根地址 + 仓库相对路径”组成，保留目录及文件名大小写。
+
+各分类子目录、模型项目、GLB 文件及完整发布地址见 [模型与发布地址清单](docs/model-catalog.md)。新增模型或调整文件路径时，同步更新该清单。
+
 ## 项目目录
 
 | 分类 | 目录 | 内容 |
@@ -44,4 +50,4 @@ tools/
 
 仓库根目录的 `vercel.json` 配置直接托管静态文件，跳过安装与构建，并允许浏览器跨域读取资源。代码和 `.blend` 源文件也属于静态输出范围。
 
-完整操作步骤及部署后检查见 [Vercel 自动发布说明](docs/vercel-deployment.md)。本次只准备配置与说明，尚未创建 AIModels 的 Vercel 项目。
+发布根地址为 [https://jt-ai-models.vercel.app/](https://jt-ai-models.vercel.app/)。完整操作步骤及部署后检查见 [Vercel 自动发布说明](docs/vercel-deployment.md)。
