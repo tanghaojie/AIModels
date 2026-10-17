@@ -146,7 +146,8 @@ class Publication:
         outputs = {}
         models = []
         seen = set()
-        for source in sorted((self.root / 'models').glob('*/model.source.json')):
+        sources = (self.root / 'models').glob('*/model.source.json')
+        for source in sorted(sources, key=lambda path: path.relative_to(self.root).as_posix().casefold()):
             manifest = self.manifest(source)
             key = manifest['id']
             require(key not in seen, f'Duplicate model id: {key}')

@@ -55,6 +55,16 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Missing asset'):
             Publication(self.root).build()
 
+    def test_catalog_order_is_independent_of_platform_path_case_rules(self):
+        for folder, key in [('Zebra', 'zebra'), ('alpha', 'alpha')]:
+            base = self.root / 'models' / folder
+            base.mkdir()
+            (base / 'example.glb').write_bytes((self.base / 'example.glb').read_bytes())
+            (base / 'model.source.json').write_text(json.dumps({**self.source, 'id': key}), encoding='utf-8')
+        self.track()
+        catalog = Publication(self.root).build()[self.root / 'catalog.json']
+        self.assertEqual([item['id'] for item in catalog['models']], ['alpha', 'example', 'zebra'])
+
     def test_untracked_texture_rejected(self):
         self.write_model('texture.png')
         (self.base / 'texture.png').write_bytes(b'image')
