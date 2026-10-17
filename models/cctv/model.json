@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "cctv",
+  "label": "中央电视台总部大楼",
+  "description": "双塔、悬挑环体与立面斜向结构建筑模型。",
+  "updatedAt": "2026-10-17",
+  "model": {
+    "url": "cctv-headquarters.glb",
+    "bytes": 6329820,
+    "sha256": "dc69cd437c174d8c190e04d2b0257eec7bc72f842e2dab4accee3c10554ac7e8"
+  },
+  "variants": [],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 116.4577,
+    "latitude": 39.9123,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "近似建筑位置；椭球高 0 为无真实地形的展示值，非实测高程。定位依据原项目 placement.json。"
+  },
+  "resources": [],
+  "attribution": [
+    {
+      "text": "AIModels · 模型工程与来源说明",
+      "url": "https://github.com/tanghaojie/AIModels/tree/master/models/cctv"
+    }
+  ],
+  "thumbnail": "preview-day.png"
+}

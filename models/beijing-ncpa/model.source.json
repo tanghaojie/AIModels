@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "id": "beijing-ncpa",
+  "label": "北京国家大剧院",
+  "description": "椭球壳体、水面与场地模型，提供均衡和兼容版本。",
+  "updatedAt": "2026-10-17",
+  "model": {
+    "url": "beijing-ncpa.glb"
+  },
+  "variants": [
+    {
+      "id": "balanced",
+      "label": "均衡版",
+      "url": "beijing-ncpa-balanced.glb"
+    },
+    {
+      "id": "compatible",
+      "label": "兼容版",
+      "url": "beijing-ncpa-compatible.glb"
+    }
+  ],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 116.38355,
+    "latitude": 39.90334,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "近似建筑位置；椭球高 0 为无真实地形的展示值，非实测高程。定位依据原项目 placement.json。"
+  },
+  "resources": [],
+  "attribution": [
+    {
+      "text": "AIModels · 模型工程与来源说明",
+      "url": "https://github.com/tanghaojie/AIModels/tree/master/models/beijing-ncpa"
+    }
+  ],
+  "thumbnail": "renders/day.png"
+}

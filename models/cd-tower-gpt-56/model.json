@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "id": "cd-tower-gpt-56",
+  "label": "成都 OPPO 大厦 · GPT-5.6",
+  "description": "成都 OPPO 大厦独立建模项目，保留结构与幕墙表达。",
+  "updatedAt": "2026-10-17",
+  "model": {
+    "url": "chengdu-oppo-tower.glb",
+    "bytes": 647844,
+    "sha256": "ff3f0b0069e7e248170fd01190c567940b45d3a43a2bda856c698cbb55e1ad59"
+  },
+  "variants": [],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 104.078051,
+    "latitude": 30.517354,
+    "height": 0.0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "近似建筑位置；椭球高 0 为无真实地形的展示值，非实测高程。定位来自模型 scene extras。"
+  },
+  "resources": [],
+  "attribution": [
+    {
+      "text": "AIModels · 模型工程与来源说明",
+      "url": "https://github.com/tanghaojie/AIModels/tree/master/models/cd-tower-gpt-56"
+    }
+  ],
+  "thumbnail": "chengdu-oppo-tower-preview.png"
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "chengdu-tianfu-airport",
+  "label": "成都天府国际机场",
+  "description": "航站楼、交通中心及配套建筑模型。",
+  "updatedAt": "2026-10-17",
+  "model": {
+    "url": "chengdu-tianfu-airport.glb"
+  },
+  "variants": [],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 104.441,
+    "latitude": 30.313,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "近似建筑位置；椭球高 0 为无真实地形的展示值，非实测高程。定位依据原项目 placement.json。"
+  },
+  "resources": [],
+  "attribution": [
+    {
+      "text": "AIModels · 模型工程与来源说明",
+      "url": "https://github.com/tanghaojie/AIModels/tree/master/models/chengdu-tianfu-airport"
+    }
+  ],
+  "thumbnail": "preview-day.png"
+}

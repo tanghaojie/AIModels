@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-17",
+  "models": [
+    {
+      "id": "beijing-ncpa",
+      "label": "北京国家大剧院",
+      "description": "椭球壳体、水面与场地模型，提供均衡和兼容版本。",
+      "manifest": "models/beijing-ncpa/model.json",
+      "variants": [
+        {
+          "id": "balanced",
+          "label": "均衡版"
+        },
+        {
+          "id": "compatible",
+          "label": "兼容版"
+        }
+      ],
+      "thumbnail": "models/beijing-ncpa/renders/day.png"
+    },
+    {
+      "id": "cctv",
+      "label": "中央电视台总部大楼",
+      "description": "双塔、悬挑环体与立面斜向结构建筑模型。",
+      "manifest": "models/cctv/model.json",
+      "variants": [],
+      "thumbnail": "models/cctv/preview-day.png"
+    },
+    {
+      "id": "cd-tower-gpt-56",
+      "label": "成都 OPPO 大厦 · GPT-5.6",
+      "description": "成都 OPPO 大厦独立建模项目，保留结构与幕墙表达。",
+      "manifest": "models/cd-tower-gpt-56/model.json",
+      "variants": [],
+      "thumbnail": "models/cd-tower-gpt-56/chengdu-oppo-tower-preview.png"
+    },
+    {
+      "id": "chengdu-oppo-tower",
+      "label": "成都 OPPO 大厦",
+      "description": "成都 OPPO 大厦三维建筑模型。",
+      "manifest": "models/chengdu-oppo-tower/model.json",
+      "variants": []
+    },
+    {
+      "id": "chengdu-tianfu-airport",
+      "label": "成都天府国际机场",
+      "description": "航站楼、交通中心及配套建筑模型。",
+      "manifest": "models/chengdu-tianfu-airport/model.json",
+      "variants": [],
+      "thumbnail": "models/chengdu-tianfu-airport/preview-day.png"
+    },
+    {
+      "id": "shanghai-tower",
+      "label": "上海中心大厦",
+      "description": "扭转塔身、幕墙与冠部建筑模型。",
+      "manifest": "models/shanghai-tower/model.json",
+      "variants": [],
+      "thumbnail": "models/shanghai-tower/preview-day.png"
+    },
+    {
+      "id": "shanghai-world-financial-center",
+      "label": "上海环球金融中心",
+      "description": "超高层建筑模型，包含主体、顶部开口与昼夜材质。",
+      "manifest": "models/Shanghai-World-Financial-Center/model.json",
+      "variants": [],
+      "thumbnail": "models/Shanghai-World-Financial-Center/preview-day.png"
+    },
+    {
+      "id": "taipei-101",
+      "label": "台北 101",
+      "description": "主体建筑与显式关联的信义街区三维瓦片。",
+      "manifest": "models/taipei-101/model.json",
+      "variants": [],
+      "thumbnail": "models/taipei-101/preview-day.png"
+    }
+  ]
+}

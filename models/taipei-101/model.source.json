@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "id": "taipei-101",
+  "label": "台北 101",
+  "description": "主体建筑与显式关联的信义街区三维瓦片。",
+  "updatedAt": "2026-10-17",
+  "model": {
+    "url": "taipei-101.glb"
+  },
+  "variants": [],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 121.564472,
+    "latitude": 25.033964,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "近似建筑位置；椭球高 0 为无真实地形的展示值，非实测高程。定位依据原项目 placement.json。 真实建筑轮廓；缺失高度采用楼层/类型估算，立面和窗灯为程序化近似。周边按椭球体地形生成。"
+  },
+  "resources": [
+    {
+      "id": "xinyi-context",
+      "label": "信义街区",
+      "kind": "3d-tiles",
+      "url": "../../model-assets/geo-context/taipei-101-v1/tileset.json",
+      "required": false,
+      "dayNight": true
+    }
+  ],
+  "attribution": [
+    {
+      "text": "AIModels · 模型工程与来源说明",
+      "url": "https://github.com/tanghaojie/AIModels/tree/master/models/taipei-101"
+    },
+    {
+      "text": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "text": "Overture Maps Foundation · ODbL",
+      "url": "https://docs.overturemaps.org/attribution/"
+    },
+    {
+      "text": "Qian Shi et al. · East Asian Buildings (CC BY 4.0)",
+      "url": "https://doi.org/10.5281/zenodo.8174931"
+    }
+  ],
+  "thumbnail": "preview-day.png"
+}

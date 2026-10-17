@@ -1,5 +1,7 @@
 # 模型与发布地址清单
 
+程序消费 [catalog.json](../catalog.json)，模型描述为各项目 `model.json`；本文件仍供人阅读。生成与兼容规则见 [发布协议](publishing-protocol.md)。
+
 记录日期：2026-10-17。
 
 文件发布根地址：[https://jt-ai-models.vercel.app/](https://jt-ai-models.vercel.app/)（项目维护者提供）。以下按当前仓库目录及文件整理，发布 URL 不代表本次已逐项完成线上可用性验收。

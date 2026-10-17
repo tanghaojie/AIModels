@@ -8,6 +8,8 @@
 
 各分类子目录、模型项目、GLB 文件及完整发布地址见 [模型与发布地址清单](docs/model-catalog.md)。新增模型或调整文件路径时，同步更新该清单。
 
+程序读取入口为 [catalog.json](https://jt-ai-models.vercel.app/catalog.json)，每个模型的 `model.json` 声明定位、质量版本和配套资源。维护步骤见 [静态发布协议](docs/publishing-protocol.md)：新增/调整 `model.source.json` 后执行 `python tools/catalog/publish.py`，再执行 `python tools/catalog/publish.py --check`。CI 会核对清单、Git 跟踪文件、文件摘要及嵌套瓦片/纹理引用。
+
 ## 项目目录
 
 | 分类 | 目录 | 内容 |
