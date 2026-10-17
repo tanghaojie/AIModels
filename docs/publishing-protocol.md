@@ -24,4 +24,4 @@ resources 提供 `id`、`label`、`kind: 3d-tiles | geojson`、`url`、`required
 
 ## 当前实施
 
-2026-10-17：接入 8 个主模型项目；国家大剧院附 balanced/compatible 版本，台北 101 显式关联现有周边瓦片和来源署名。近似坐标/0 高程来自各项目原始元数据；cd-tower-gpt-56 的定位取自其 GLB scene extras。当前实现及验证结果见交付记录。
+2026-10-17：接入 8 个主模型项目；国家大剧院附 balanced/compatible 版本，台北 101 显式关联现有周边瓦片和来源署名。近似坐标/0 高程来自各项目原始元数据；cd-tower-gpt-56 的定位取自其 GLB scene extras。当前实现及验证结果见[交付记录](catalog-delivery.md)。

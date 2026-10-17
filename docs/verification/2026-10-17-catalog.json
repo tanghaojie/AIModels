@@ -1,0 +1,931 @@
+{
+  "checkedAt": "2026-10-17T03:13:28.008744+00:00",
+  "commit": "d9ff258dda025826cf3a408a7aa17389b9f4c108",
+  "base": "https://jt-ai-models.vercel.app/",
+  "metadata": [
+    {
+      "path": "models/beijing-ncpa/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/cctv/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/cd-tower-gpt-56/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/chengdu-oppo-tower/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/chengdu-tianfu-airport/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/shanghai-tower/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/Shanghai-World-Financial-Center/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/taipei-101/model.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "catalog.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    }
+  ],
+  "models": [
+    {
+      "path": "models/beijing-ncpa/beijing-ncpa.glb",
+      "status": 200,
+      "bytes": 37783840,
+      "sha256": "8ab27bf15fd6b21aeaf605ce571085f6a3c5bdd6044406f48030acad9be1dc81",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/beijing-ncpa/beijing-ncpa-balanced.glb",
+      "status": 200,
+      "bytes": 27144192,
+      "sha256": "3c7f839780c7ab3a45be97faed0da852c9dd41d160873719c290b681ab87a6da",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/beijing-ncpa/beijing-ncpa-compatible.glb",
+      "status": 200,
+      "bytes": 12101972,
+      "sha256": "a97a5db26b2b14209b20b414ad29a61c48238cada7afdb3d45987d2ba8c94741",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/cctv/cctv-headquarters.glb",
+      "status": 200,
+      "bytes": 6329820,
+      "sha256": "dc69cd437c174d8c190e04d2b0257eec7bc72f842e2dab4accee3c10554ac7e8",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/cd-tower-gpt-56/chengdu-oppo-tower.glb",
+      "status": 200,
+      "bytes": 647844,
+      "sha256": "ff3f0b0069e7e248170fd01190c567940b45d3a43a2bda856c698cbb55e1ad59",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/chengdu-oppo-tower/chengdu-oppo-tower.glb",
+      "status": 200,
+      "bytes": 2105000,
+      "sha256": "de17816d35fcf13c8359b526a5d57d8ebc3704170e5bce018394d2fd5ab9ecdb",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/chengdu-tianfu-airport/chengdu-tianfu-airport.glb",
+      "status": 200,
+      "bytes": 27331088,
+      "sha256": "77d0d2ea711997c0ee28e6c54a62acbe2391fbf736a63804705fbc34451ff0a4",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/shanghai-tower/shanghai-tower.glb",
+      "status": 200,
+      "bytes": 33589200,
+      "sha256": "af69cf4c9100333537df90050e4e9a8f5c88168a00b130eeaa4fc271ebb0bdb8",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/Shanghai-World-Financial-Center/shanghai-world-financial-center.glb",
+      "status": 200,
+      "bytes": 4311320,
+      "sha256": "513e5bf4db7e081894e1cc4b38ed5c3b0cd169199e91a18df7b3ef156cf765c4",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "models/taipei-101/taipei-101.glb",
+      "status": 200,
+      "bytes": 15419900,
+      "sha256": "e303e71be0efc1c49490f92b330892ad76f45249958265fd4e7aaae91a52deb1",
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/commercial-base.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/commercial-emissive.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/commercial-normal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/commercial-orm.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/concrete-base.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/concrete-emissive.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/concrete-normal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/concrete-orm.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/office-base.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/office-emissive.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/office-normal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/office-orm.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/residential-base.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/residential-emissive.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/residential-normal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/residential-orm.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/roof-base.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/roof-normal.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/materials/roof-orm.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-4-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_-4-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-1_3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-4-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_-4-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-2_3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-3_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/-4_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-4-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_-4-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/0_3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-4-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_-4-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/1_3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-3-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_-3-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/2_2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_-1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_-1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_-2-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_-2-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_0-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_0-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_1-coarse.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tiles/3_1-fine.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "cors": "*"
+    },
+    {
+      "path": "model-assets/geo-context/taipei-101-v1/tileset.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cors": "*"
+    },
+    {
+      "path": "models/beijing-ncpa/renders/day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/cctv/preview-day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/cd-tower-gpt-56/chengdu-oppo-tower-preview.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/chengdu-tianfu-airport/preview-day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/shanghai-tower/preview-day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/Shanghai-World-Financial-Center/preview-day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    },
+    {
+      "path": "models/taipei-101/preview-day.png",
+      "status": 200,
+      "contentType": "image/png",
+      "cors": "*"
+    }
+  ]
+}
