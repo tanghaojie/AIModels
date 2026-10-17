@@ -2,6 +2,8 @@
 
 AIModels 拥有模型与配套资产，Cyber-Sight 消费发布清单。继续使用 `models/`、`model-assets/`、`tools/` 分类，不改变旧定位和验收记录。
 
+制作前按 [CS-AM-1 建模详细要求](modeling-requirements.md)交付材质、光照、定位、分件和动画。静态完整模型作为目录主模型；`variants` 只表示质量，`resources` 仍只接受下文两种类型。拼装/爆炸 GLB 与 `parts.json`、`animation.json` 可随项目保存并在 README 列出直接地址，但 v1 不发现或控制这些动画，不新增附录字段到本协议。
+
 ## 文件与版本
 
 - 根 `catalog.json`：`version: 1`、`updatedAt` 和 `models`，条目含稳定 `id`、`label`、`description`、可选 `thumbnail`、`manifest` 和质量选择用的 `variants`（id、label）。
