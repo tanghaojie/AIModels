@@ -15,6 +15,7 @@
 - [街区 3D Tiles](https://jt-ai-models.vercel.app/model-assets/geo-context/wangjing-soho-1500-v1/tileset.json)：1463 个建筑轮廓片、道路、绿地；与主体同锚点。
 - [拼装预览视频](previews/assembly-preview.mp4)、[爆炸预览视频](previews/explode-preview.mp4)、[分镜与昼夜图](previews/)。视频是压缩预览，源工程与 GLB 保留完整采样。
 - [任务书](model-brief.md)、[部件](parts.json)、[动画](animation.json)、[材质](materials.md)、[参考来源](references/README.md)、[验证摘要](verification/summary.json)。
+- [作品展示板](previews/portfolio-board.jpg)：日景、夜景、幕墙近景与空场/悬空装配/落地阶段。
 
 目录 v1 只发现静态主模型与街区，不自动控制这两个动画。请把动画 GLB 交给支持 glTF 核心节点动画的播放器；有动画文件不等于当前 Cyber-Sight 普通模型卡已有拼装拖动面板。
 
@@ -50,3 +51,5 @@ node models/wangjing-soho/scripts/validate.cjs
 四个 GLB 的 Khronos 校验均 0 错误/0 警告。验证器仅忽略常量材质未使用 UV 的 UNUSED_OBJECT 信息，不忽略错误/警告。检查了导出 PBR、内嵌图片、单面、相机/灯排除、共同 t=0、严格递增采样时间、首末一致性、向下飞入、85 m 整体下降与保持。
 
 Blender 图与 GLB 结构验证属于制作证据；Cyber-Sight 昼夜、实际 GPU/播放/首次 ready 和地形效果由维护者人工验收，此轮没有运行前端或浏览器自动化。
+
+生产部署状态、对应提交、HTTP/MIME/CORS 和线上 bytes/SHA-256 对账见 [发布验收记录](verification/deployment.json)。

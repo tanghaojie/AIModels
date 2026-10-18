@@ -1,0 +1,17 @@
+{
+  "source": "Authenticated Vercel production-alias get_deployment and exact GitHub Vercel success",
+  "id": "dpl_6NBJf844U34FL2CFBHGqSxNqqSJV",
+  "project_id": "prj_o97eE6nh5hQYh1sUQIUJl0DRsgzh",
+  "name": "ai-models",
+  "state": "READY",
+  "readyState": "READY",
+  "target": "production",
+  "deployment_url": "ai-models-m5jgknric-tanghaojies-projects.vercel.app",
+  "production_alias": "jt-ai-models.vercel.app",
+  "commit": "58c5ecac808c8eefaa75d51bb4fb10f6311f05d4",
+  "branch": "master",
+  "repository": "tanghaojie/AIModels",
+  "createdAt": 1792297293182,
+  "ready": 1792297310400,
+  "build_duration_ms": 16175
+}
