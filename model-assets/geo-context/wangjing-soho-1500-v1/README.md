@@ -14,3 +14,5 @@
 OSM：© OpenStreetMap contributors / ODbL-1.0。[Overture attribution](https://docs.overturemaps.org/attribution/)；其中 East Asian Buildings 为 Qian Shi et al. / [CC BY 4.0](https://doi.org/10.5281/zenodo.8174931)。源数据许可不由原创脚本的许可替代。
 
 生产消费端的昼夜、录屏与设备性能仍需维护者人工验收。本项目没有运行前端或浏览器自动化。
+
+2026-10-18 街区显示修正：顶层 `tileset.geometricError=3000` 表示完全省略约 3000 m 宽街区时的误差；唯一叶节点 `root.geometricError=0` 表示不再细分。此前把两个层级均设为 0，导致 Cesium 1.144 的根遍历提前返回，出现“资源已就绪但街区不显示”。已同步修正生成脚本并在发布检查中拒绝顶层 0。资产侧复现与检查见模型项目的 `verification/tileset-selection.json`，实际页面显示仍需重新加载后人工确认。

@@ -88,3 +88,13 @@ EEVEE 光线追踪、AgX；`WJ_PREVIEW_ONLY` 保存相机、太阳、面积软�
 - Blender 视觉证据：预览目录保存，视觉验收细目见 verification/visual-review.md；原图版权与几何估算边界见 references/README.md。
 - 发布：具体目标提交、Vercel READY、线上 HTTP/MIME/CORS/bytes/SHA-256 以 verification/deployment.json 为准，未生成该证据前不声称发布完成。
 - 未执行：Cyber-Sight 前端/浏览器自动化、目标引擎视觉与设备性能验收、真实地形贴合、精密测绘对照。
+
+## 10. 发布后街区问题修正（2026-10-18）
+
+维护者通过“外部数据 → AI 模型 → 望京 SOHO”反馈街区未显示。读取其当前页面确认主体与街区均勾选、2 项资源已就绪、画面缺少街区，没有捕获到瓦片错误。线上 JSON/GLB 返回 200 与正确 CORS，因此 HTTP 检查不足以判定已渲染。
+
+根因在资产清单：顶层 `tileset.geometricError=0` 让 Cesium 1.144 / engine 26.2.0 的 BaseTraversal 在进入根内容前返回。现按街区直径设置为 3000 m；单块叶节点继续为 0。未改几何、锚点、材质或 Cyber-Sight 前端。生成脚本同步修正，发布工具新增阻止该配置回归的检查与测试。
+
+`scripts/verify_tileset_selection.mjs` 调用消费端已安装的真实 Cesium SSE 函数，复现旧配置 2 km 处 SSE=0、修正后 SSE≈1102.88；500 m 至 30 km 的五个距离均通过该选择门限。这是资产计算证据，不是浏览器、WebGL 或视觉验收。结果在 `verification/tileset-selection.json`；发布状态及线上字节核对另存修正记录。
+
+动画入口仍遵循发布 v1：目录主文件静态，拼装/爆炸独立 GLB 未被当前生产目录自动发现或播放；本次街区修正没有增加前端播放器。

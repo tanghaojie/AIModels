@@ -14,6 +14,8 @@ AIModels 拥有模型与配套资产，Cyber-Sight 消费发布清单。继续�
 
 resources 提供 `id`、`label`、`kind: 3d-tiles | geojson`、`url`、`required`；3D Tiles 可显式提供 `dayNight`，只用于本仓库已制作的兼容街区。署名条目为 text、url。配套资源通过模型组加载，不提供独立地标场景入口。
 
+面向当前 Cesium 消费端的 3D Tiles 必须设置正的、有限的顶层 `tileset.geometricError`，表示完全省略该瓦片集的误差；叶节点的 `geometricError` 可以为 0。不能把两者都设为 0，否则 Cesium 会在进入根内容前跳过遍历，HTTP 成功也不会显示几何。发布检查会拒绝顶层 0；仍需人工验证实际显示。
+
 ## 发布工作流
 
 每个正式模型维护 `model.source.json`，填写模型文件、预览、定位来源或显式 placement、质量版本及配套资源。运行 `python tools/catalog/publish.py` 生成每模型描述和 catalog.json；`python tools/catalog/publish.py --check` 核对生成内容及已跟踪文件，验证 GLB/glTF 与 3D Tiles 的相对依赖。生成过程会计算主文件与质量版本的字节数及 SHA-256，不重写模型二进制、原始 placement 或 scene。

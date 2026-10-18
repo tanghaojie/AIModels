@@ -71,6 +71,23 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'not tracked'):
             Publication(self.root).build()
 
+    def test_tileset_omission_error_must_be_positive_but_leaf_error_may_be_zero(self):
+        tileset = self.base / 'tileset.json'
+        data = {'asset': {'version': '1.1'}, 'geometricError': 3000,
+                'root': {'boundingVolume': {'sphere': [0, 0, 0, 1500]},
+                         'geometricError': 0, 'content': {'uri': 'example.glb'}}}
+        self.source['resources'] = [{'id': 'district', 'label': 'District', 'kind': '3d-tiles',
+                                     'url': 'tileset.json', 'required': True}]
+        self.save()
+        tileset.write_text(json.dumps(data), encoding='utf-8')
+        self.track()
+        Publication(self.root).build()
+        for error in (0, -1, None, True, float('inf')):
+            with self.subTest(tileset_geometric_error=error):
+                tileset.write_text(json.dumps({**data, 'geometricError': error}), encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'positive tileset.geometricError'):
+                    Publication(self.root).build()
+
     def test_escaped_and_remote_resources_rejected(self):
         publication = Publication(self.root)
         for url in ('../../../outside.glb', 'https://example.com/model.glb', '/model.glb', '..\\model.glb'):

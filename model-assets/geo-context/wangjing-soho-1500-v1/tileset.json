@@ -3,7 +3,7 @@
     "version": "1.1",
     "copyright": "\u00a9 OpenStreetMap contributors / ODbL-1.0. Facades and landscape by AIModels."
   },
-  "geometricError": 0,
+  "geometricError": 3000,
   "root": {
     "boundingVolume": {
       "box": [

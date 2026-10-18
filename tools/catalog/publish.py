@@ -81,6 +81,14 @@ class Publication:
         if document is None:
             return
 
+        if isinstance(document, dict) and isinstance(document.get('root'), dict):
+            asset = document.get('asset')
+            if isinstance(asset, dict) and asset.get('version') in ('1.0', '1.1'):
+                error = document.get('geometricError')
+                require(type(error) in (int, float) and math.isfinite(error) and error > 0,
+                        f'Cesium publication needs positive tileset.geometricError: {path}; '
+                        'zero skips the whole tileset, while leaf geometricError may be zero')
+
         def visit(value):
             if isinstance(value, dict):
                 for key, child in value.items():

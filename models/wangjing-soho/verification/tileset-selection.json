@@ -1,0 +1,49 @@
+{
+  "scope": "Asset-level Cesium SSE calculation; no browser, WebGL, or visual acceptance",
+  "engine_version": "26.2.0",
+  "maximum_screen_space_error": 16,
+  "source": {
+    "tile": "ec540628b1b62bdbbbac1535aebaeddb75702c9dc3ccaeaef145a9e88c6346c9",
+    "base_traversal": "52e062c0660b4d019d85fa445a3dae9f348708f4575dd19a712cea354b854548"
+  },
+  "tileset_sha256": "67e6960782dd6433e946f7d77d88bbc1870ceac4af30500c73166bdee4b3c344",
+  "before": {
+    "error": 0,
+    "distance_m": 2000,
+    "screen_space_error": 0,
+    "rejected_by_base_traversal_sse_gate": true
+  },
+  "after": [
+    {
+      "error": 3000,
+      "distance_m": 500,
+      "screen_space_error": 4411.533406877931,
+      "rejected_by_base_traversal_sse_gate": false
+    },
+    {
+      "error": 3000,
+      "distance_m": 2000,
+      "screen_space_error": 1102.8833517194828,
+      "rejected_by_base_traversal_sse_gate": false
+    },
+    {
+      "error": 3000,
+      "distance_m": 5000,
+      "screen_space_error": 441.15334068779305,
+      "rejected_by_base_traversal_sse_gate": false
+    },
+    {
+      "error": 3000,
+      "distance_m": 10000,
+      "screen_space_error": 220.57667034389652,
+      "rejected_by_base_traversal_sse_gate": false
+    },
+    {
+      "error": 3000,
+      "distance_m": 30000,
+      "screen_space_error": 73.52555678129885,
+      "rejected_by_base_traversal_sse_gate": false
+    }
+  ],
+  "passed": true
+}

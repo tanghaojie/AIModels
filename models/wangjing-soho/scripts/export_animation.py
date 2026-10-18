@@ -39,8 +39,10 @@ def tileset():
     origin=[N*math.cos(p)*math.cos(l),N*math.cos(p)*math.sin(l),N*(1-e2)*math.sin(p)]
     north=[-math.sin(p)*math.cos(l),-math.sin(p)*math.sin(l),math.cos(p)];west=[math.sin(l),-math.cos(l),0];up=[math.cos(p)*math.cos(l),math.cos(p)*math.sin(l),math.sin(p)]
     transform=[*north,0,*west,0,*up,0,*origin,1]
-    d=dict(asset=dict(version='1.1',copyright='© OpenStreetMap contributors / ODbL-1.0. Facades and landscape by AIModels.'),geometricError=0,root=dict(boundingVolume=dict(box=[0,0,175,1501,0,0,0,1501,0,0,0,176]),transform=transform,geometricError=0,refine='REPLACE',content=dict(uri='district.glb')))
-    (OUT/'tileset.json').write_text(json.dumps(d,indent=2))
+    # Error for omitting the entire 3000 m district, not the leaf mesh error.
+    # Cesium skips traversal when this top-level error is zero. The leaf stays 0.
+    d=dict(asset=dict(version='1.1',copyright='© OpenStreetMap contributors / ODbL-1.0. Facades and landscape by AIModels.'),geometricError=3000,root=dict(boundingVolume=dict(box=[0,0,175,1501,0,0,0,1501,0,0,0,176]),transform=transform,geometricError=0,refine='REPLACE',content=dict(uri='district.glb')))
+    (OUT/'tileset.json').write_text(json.dumps(d,indent=2)+'\n',encoding='utf-8',newline='\n')
     scene=dict(version=1,id='wangjing-soho-1500-v1',label='望京 SOHO · 半径 1500 米街区',anchor=dict(longitude_wgs84=lon,latitude_wgs84=lat),model=dict(url='https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho.glb'),context=dict(url='tileset.json',terrain='ellipsoid',maximum_anchor_distance_m=5),attribution=[dict(text='© OpenStreetMap contributors · ODbL',url='https://www.openstreetmap.org/copyright'),dict(text='Overture Maps Foundation · 2026-09-23.1',url='https://docs.overturemaps.org/attribution/'),dict(text='Qian Shi et al. East Asian Buildings · CC BY 4.0',url='https://doi.org/10.5281/zenodo.8174931')],notice='真实 OSM / Overture 轮廓及道路；缺失高度估算，立面为程序化近似。椭球高 0 是演示值，非实测地形。')
     (OUT/'scene.json').write_text(json.dumps(scene,ensure_ascii=False,indent=2),encoding='utf-8')
 def main():
