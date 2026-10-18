@@ -10,14 +10,14 @@
   ],
   "radius_m": 1500,
   "area_km2": 7.0685834705770345,
-  "building_count": 1463,
+  "building_count": 1462,
   "overture_infill": 694,
   "road_polygons": 1210,
   "greens": 73,
   "heights": {
-    "source_height": 4,
-    "floors_estimate": 58,
-    "type_estimate": 1411
+    "type_estimate": 1403,
+    "floors_estimate": 55,
+    "source_height": 4
   },
   "license": "ODbL-1.0 plus East Asian Buildings CC BY 4.0",
   "excluded_ids": [
@@ -32,5 +32,7 @@
     "Building facades and roof equipment are illustrative; source coverage is incomplete",
     "Ground is a flat ellipsoid demonstration at height 0, not surveyed terrain",
     "No fictional district building footprints have been inserted"
-  ]
+  ],
+  "rendered_footprint_pieces": 1463,
+  "height_statistic_unit": "unique_source_feature"
 }

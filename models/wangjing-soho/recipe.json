@@ -249608,9 +249608,9 @@
     }
   ],
   "stats": {
-    "source_height": 4,
-    "floors_estimate": 58,
-    "type_estimate": 1411
+    "type_estimate": 1403,
+    "floors_estimate": 55,
+    "source_height": 4
   },
   "overture_added": 694
 }

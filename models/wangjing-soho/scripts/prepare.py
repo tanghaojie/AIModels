@@ -116,9 +116,12 @@ def main():
     # The 6 m third pavilion is plan-traced; its footprint is explicitly an approximation.
     p=Polygon([(-137,-36),(-137,36),(-126,42),(-123,25),(-123,-35)])
     landmarks.append(dict(id='P3',height=6,floors=1,occupied_top=6,source='ZHA site plan; plan-traced approximate dimensions/location',**polydata(p)))
+    unique_buildings=list({str(b['id']):b for b in buildings}.values())
+    stats={method:sum(b['height_method']==method for b in unique_buildings) for method in ['source_height','floors_estimate','type_estimate']}
     write(ROOT/'recipe.json',dict(version=1,seed=7331,anchor=[LON,LAT],radius_m=1500,landmarks=landmarks,buildings=buildings,roads=roads,greens=greens,stats=stats,overture_added=added))
     ASSET.mkdir(parents=True,exist_ok=True)
     write(ASSET/'metadata.json',dict(version=1,date='2026-10-18',source='OpenStreetMap Overpass API + Overture 2026-09-23.1 nonoverlapping infill',endpoint='https://overpass-api.de/api/interpreter',raw_sha256=hashlib.sha256(raw.read_bytes()).hexdigest(),anchor=[LON,LAT],radius_m=1500,area_km2=math.pi*1.5**2,building_count=len(buildings),overture_infill=added,road_polygons=len(roads),greens=len(greens),heights=stats,license='ODbL-1.0 plus East Asian Buildings CC BY 4.0',excluded_ids=list(towerids),limitations=['Missing heights estimated by levels or type; not measured','Building facades and roof equipment are illustrative; source coverage is incomplete','Ground is a flat ellipsoid demonstration at height 0, not surveyed terrain','No fictional district building footprints have been inserted']))
+    meta=json.loads((ASSET/'metadata.json').read_text(encoding='utf-8'));meta.update(building_count=len(unique_buildings),rendered_footprint_pieces=len(buildings),height_statistic_unit='unique_source_feature');write(ASSET/'metadata.json',meta)
     (ASSET/'sources').mkdir(exist_ok=True)
     with gzip.GzipFile(filename=str(ASSET/'sources'/'osm-context.json.gz'),mode='wb',mtime=0) as stream: stream.write(raw.read_bytes())
     if overture.exists():

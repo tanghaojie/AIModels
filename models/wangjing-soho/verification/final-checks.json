@@ -4,5 +4,12 @@
   "roundtrip_max_error_m": 1.5256484516612545e-05,
   "peak_moving_parts": 404,
   "catalog_tests": "7 passed",
-  "browser_testing": "not performed per repository instructions"
+  "browser_testing": "not performed per repository instructions",
+  "building_features": 1462,
+  "rendered_footprint_pieces": 1463,
+  "height_methods": {
+    "type_estimate": 1403,
+    "floors_estimate": 55,
+    "source_height": 4
+  }
 }

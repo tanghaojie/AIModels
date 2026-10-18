@@ -28,8 +28,8 @@ def main():
 | 外轮廓、逐层收分、入口 | THE PLAN 所刊署名 ZHA 平面/立面/剖面及官方建成照片；曲率为拟合重建 |
 | 低亭 | P1/P2 OSM 脚印，15 m 高；第三亭 6 m，按总平面近似描绘 |
 | 参考原图 | 19 张已下载，`references/download-manifest.json` 有来源、作者、用途、许可和哈希 |
-| 周边街区 | 1463 栋真实脚印、1210 道路面、73 绿地/水体面；OSM + Overture 2026-09-23.1 无重叠补充 |
-| 高度不确定性 | 街区 4 栋源高度、58 栋楼层估算、1411 栋类型估算；不把真实轮廓等同于真实楼高 |
+| 周边街区 | 1463 个轮廓片（1462 个建筑要素）、1210 道路面、73 绿地/水体面；OSM + Overture 2026-09-23.1 无重叠补充 |
+| 高度不确定性 | 街区 4 栋源高度、55 栋楼层估算、1403 栋类型估算；不把真实轮廓等同于真实楼高 |
 | 内部与景观 | 核心、楼板、分格、场地岛、树、车、灯具为展示构造；非 BIM / 施工模拟 |
 
 照片与图纸仅本地保留，公开 Git 保存获取脚本及来源清单，不再分发受版权保护的原图。地理来源快照及署名公开保留。
@@ -110,7 +110,7 @@ EEVEE 光线追踪、AgX；`WJ_PREVIEW_ONLY` 保存相机、太阳、面积软�
 - [静态 GLB](https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho.glb)。
 - [高空飞入拼装 GLB](https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho-assembly.glb)：30 s；构件向下飞入，在地上 85 m 完整组装，22–27 s 整体下降，保持至 30 s。
 - [爆炸分解 GLB](https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho-explode.glb)：12 s，分层/外展分解并保持。
-- [街区 3D Tiles](https://jt-ai-models.vercel.app/model-assets/geo-context/wangjing-soho-1500-v1/tileset.json)：1463 栋建筑脚印、道路、绿地；与主体同锚点。
+- [街区 3D Tiles](https://jt-ai-models.vercel.app/model-assets/geo-context/wangjing-soho-1500-v1/tileset.json)：1463 个建筑轮廓片、道路、绿地；与主体同锚点。
 - [拼装预览视频](previews/assembly-preview.mp4)、[爆炸预览视频](previews/explode-preview.mp4)、[分镜与昼夜图](previews/)。视频是压缩预览，源工程与 GLB 保留完整采样。
 - [任务书](model-brief.md)、[部件](parts.json)、[动画](animation.json)、[材质](materials.md)、[参考来源](references/README.md)、[验证摘要](verification/summary.json)。
 
@@ -118,7 +118,7 @@ EEVEE 光线追踪、AgX；`WJ_PREVIEW_ONLY` 保存相机、太阳、面积软�
 
 ## 精度与依赖
 
-塔高 118/127/200 m 来自 ZHA/CTBUH，平面与北向来自 OSM，曲面和细节结合署名 ZHA 图纸及实景拟合。内部结构、第三低亭、场地细部为示意，非 BIM。街区只有 4 栋有源高度、58 栋按楼层估算、1411 栋按类型估算，不能当作精细测绘模型。
+塔高 118/127/200 m 来自 ZHA/CTBUH，平面与北向来自 OSM，曲面和细节结合署名 ZHA 图纸及实景拟合。内部结构、第三低亭、场地细部为示意，非 BIM。街区只有 4 栋有源高度、55 栋按楼层估算、1403 栋按类型估算，不能当作精细测绘模型。
 
 WGS84 116.47506° E / 39.99547° N；真实椭球高未知。目录与街区的 0 是椭球演示值。GEO_ROOT 不参与动画，glTF +X 北 / +Y 上 / +Z 东。
 
