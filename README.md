@@ -35,6 +35,7 @@ models/
   shanghai-tower/
   taipei-101/
   beijing-ncpa/
+  wangjing-soho/
 model-assets/
   geo-context/
 tools/

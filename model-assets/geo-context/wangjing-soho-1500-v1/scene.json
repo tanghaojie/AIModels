@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "wangjing-soho-1500-v1",
+  "label": "望京 SOHO · 半径 1500 米街区",
+  "anchor": {
+    "longitude_wgs84": 116.47506,
+    "latitude_wgs84": 39.99547
+  },
+  "model": {
+    "url": "https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho.glb"
+  },
+  "context": {
+    "url": "tileset.json",
+    "terrain": "ellipsoid",
+    "maximum_anchor_distance_m": 5
+  },
+  "attribution": [
+    {
+      "text": "© OpenStreetMap contributors · ODbL",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "text": "Overture Maps Foundation · 2026-09-23.1",
+      "url": "https://docs.overturemaps.org/attribution/"
+    },
+    {
+      "text": "Qian Shi et al. East Asian Buildings · CC BY 4.0",
+      "url": "https://doi.org/10.5281/zenodo.8174931"
+    }
+  ],
+  "notice": "真实 OSM / Overture 轮廓及道路；缺失高度估算，立面为程序化近似。椭球高 0 是演示值，非实测地形。"
+}

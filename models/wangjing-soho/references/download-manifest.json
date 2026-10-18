@@ -1,0 +1,273 @@
+{
+  "collected": "2026-10-18",
+  "page": "https://www.theplan.it/eng/architecture/wangjing-soho-zaha-hadid",
+  "official": "https://www.zha.com/projects/architecture/wangjing-soho",
+  "files": [
+    {
+      "file": "sectiona-a.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43264/sectiona-a.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "BB section",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 45985,
+      "sha256": "b016bb9a7f63db8409c917f0c7b2b63e614767c421239b5a5976ebd5ea314773",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "sectionb-b.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43264/sectionb-b.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "AA section",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 37181,
+      "sha256": "111791cb1b2caa74b515741b5268e809dd0f9c705a61293a87460ae9bacdef5f",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "1_siteplan.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43265/1_siteplan.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "north/site composition",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 51565,
+      "sha256": "b4bdc7e8589362e21a1327258f79168d44b4fd10eda8cb33f2b4356c6b470977",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "2_floorplan.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43265/2_floorplan.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "ground floor/entries",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 58153,
+      "sha256": "275c8133792fcbb23f1db65aaffbec4289ad574199613850a1505abf45cd1e42",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "3_floorplan2.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43265/3_floorplan2.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "typical floor",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 67068,
+      "sha256": "14b8324470d97b63a28ec7f6f5c88804e017fb02a041214f993c83ca01b98512",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "eastelevation.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43266/eastelevation.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "eastelevation",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 39049,
+      "sha256": "411c74636e3ac9c6db4d9e91e9595b4d2fe8f4ea97eec0e14e56c046b8dac23a",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "southelevation.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43266/southelevation.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "southelevation",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 51574,
+      "sha256": "aca849a93fabd254b34c62eac1035921eee725528f66c00214de343a0c91f9e2",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "westelevation.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43266/westelevation.jpg",
+      "credit": "Zaha Hadid Architects",
+      "use": "westelevation",
+      "pixels": [
+        900,
+        540
+      ],
+      "bytes": 43423,
+      "sha256": "ea808030dad89dee678deb5219e824e57fdda1afca8d632b6116f8ee9967c4b8",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "02-jl.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/02-jl.jpg",
+      "credit": "Jerry Yin",
+      "use": "built photography",
+      "pixels": [
+        750,
+        500
+      ],
+      "bytes": 46165,
+      "sha256": "7a42774bcc87064399a16448f7c1199ea9b27f0f230ad30b7bc8cb73ef1144b7",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "03-jl.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/03-jl.jpg",
+      "credit": "Jerry Yin",
+      "use": "built photography",
+      "pixels": [
+        750,
+        1088
+      ],
+      "bytes": 80912,
+      "sha256": "c36549237489b31dc4ce9931eaf71d34051c6aebf7408cbf68322a4927e5d017",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "04-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/04-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        476
+      ],
+      "bytes": 61036,
+      "sha256": "e0aafc927f301f0382b0330c6deabd6b83044c99d4838314c7a9f02e3461682b",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "05-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/05-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        384
+      ],
+      "bytes": 45954,
+      "sha256": "7d65ea24242ac4d025ffeec78ea6d4acbba21bd1f8a6ccbf59171379bf7fe76b",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "06-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/06-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        934
+      ],
+      "bytes": 135455,
+      "sha256": "337e2631120ae8176a51a44268625d8c512e171b0a08e50c0d8f7e5c903f0913",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "07-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/07-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        1030
+      ],
+      "bytes": 100702,
+      "sha256": "10b6011e11ab26c43e9116e2d66169bc548c8346ae5a34f33484f621385c87c0",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "08-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/08-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        758
+      ],
+      "bytes": 118854,
+      "sha256": "2c740684eaae53cef6f0800085458cc8d861b4aaa13b001a67b533c596102658",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "09-vsb.jpg",
+      "url": "https://www.theplan.it/images/stories/gallery43251/09-vsb.jpg",
+      "credit": "Virgile Simon Bertrand / Alphaville.hk",
+      "use": "built photography",
+      "pixels": [
+        750,
+        439
+      ],
+      "bytes": 45992,
+      "sha256": "b6f03a421038a4928a07c426cd8043d04316c6b226d3dcdce30dbc505e07fd13",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "zha-aerial.webp",
+      "url": "https://media-prod.zha.com/zhweb-prod-media/media/jpymqbqp/01618_cp_jy_sep14_n211992.jpg?fm=webp&w=2560",
+      "credit": "Jerry Yin / SOHO China / ZHA",
+      "use": "built aerial composition",
+      "pixels": [
+        2560,
+        1643
+      ],
+      "bytes": 893820,
+      "sha256": "272f6644f9e5658803b8ad6c4ab43d6c6ff3fd32894b73b7254bca72285db8d0",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "zha-ground.webp",
+      "url": "https://media-prod.zha.com/zhweb-prod-media/media/pa0cblfi/01618_cp_xl_oct23_n303765.jpg?fm=webp&w=2560",
+      "credit": "Xue Liang / ZHA",
+      "use": "2023 ground/skin",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "bytes": 1544336,
+      "sha256": "6828fccf01d4dc3ba9224d400d05b48dac755bbbb8f18055bd8a2101c8095396",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    },
+    {
+      "file": "zha-detail.webp",
+      "url": "https://media-prod.zha.com/zhweb-prod-media/media/morpo3gl/01618_cp_vsb_sep14_n100491.jpg?fm=webp&w=2560",
+      "credit": "Virgile Simon Bertrand / ZHA",
+      "use": "facade detail",
+      "pixels": [
+        2560,
+        3187
+      ],
+      "bytes": 713074,
+      "sha256": "0b30f69e4aaf6121f2f7179fa068f73055b390c62dfd2e02baf23b1d3842d70f",
+      "status": "saved",
+      "license": "Copyright retained by author; local research/acceptance only; excluded from Git redistribution"
+    }
+  ]
+}

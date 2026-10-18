@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "seed": 7331,
+  "radius_m": 1500,
+  "facade_segments": 160,
+  "hover_height_m": 85,
+  "fps": 30,
+  "assembly_duration_s": 30,
+  "descent_start_s": 22,
+  "descent_end_s": 27,
+  "explode_duration_s": 12,
+  "preview_resolution": [1600, 1100],
+  "preview_samples": 32
+}

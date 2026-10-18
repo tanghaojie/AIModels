@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "version": "1.1",
+    "copyright": "\u00a9 OpenStreetMap contributors / ODbL-1.0. Facades and landscape by AIModels."
+  },
+  "geometricError": 0,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        0,
+        0,
+        175,
+        1501,
+        0,
+        0,
+        0,
+        1501,
+        0,
+        0,
+        0,
+        176
+      ]
+    },
+    "transform": [
+      0.286532997870174,
+      -0.5753232926969704,
+      0.7660952617082598,
+      0,
+      0.895128500079477,
+      0.44580821924395453,
+      0,
+      0,
+      -0.3415315643933906,
+      0.685753702530909,
+      0.6427270415877591,
+      0,
+      -2181353.391544322,
+      4379891.408973451,
+      4077600.249262035,
+      1
+    ],
+    "geometricError": 0,
+    "refine": "REPLACE",
+    "content": {
+      "uri": "district.glb"
+    }
+  }
+}

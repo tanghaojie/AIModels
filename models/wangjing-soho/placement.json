@@ -1,0 +1,13 @@
+{
+  "geo_metadata_version": 1,
+  "longitude_wgs84": 116.47506,
+  "latitude_wgs84": 39.99547,
+  "horizontal_crs": "EPSG:4326",
+  "vertical_reference": "WGS84_ELLIPSOID",
+  "coordinate_source": "OSM site and tower footprints, Overpass snapshot 2026-10-18; origin near site centre",
+  "coordinate_accuracy": "approximate",
+  "height_source": "terrain_at_load",
+  "units": "meters",
+  "local_origin": "site_ground_center",
+  "height_m": 200.0
+}

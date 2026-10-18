@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "id": "wangjing-soho",
+  "label": "望京 SOHO",
+  "description": "三塔曲面幕墙与流线场地，配套半径 1500 米真实轮廓街区；项目附 85 米高空飞入组装、整体落地及爆炸动画。",
+  "updatedAt": "2026-10-18",
+  "model": { "url": "wangjing-soho.glb" },
+  "variants": [],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 116.47506,
+    "latitude": 39.99547,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "OSM 参考锚点，非测绘；椭球高 0 为展示值，非实测地形。周边多数建筑高度估算，详见附件 metadata.json。"
+  },
+  "resources": [
+    {
+      "id": "wangjing-district-1500",
+      "label": "半径 1500 米望京街区",
+      "kind": "3d-tiles",
+      "url": "../../model-assets/geo-context/wangjing-soho-1500-v1/tileset.json",
+      "required": true,
+      "dayNight": true
+    }
+  ],
+  "attribution": [
+    { "text": "建筑设计：Zaha Hadid Architects / CCDI；AIModels 独立展示重建", "url": "https://www.zha.com/projects/architecture/wangjing-soho" },
+    { "text": "© OpenStreetMap contributors · ODbL", "url": "https://www.openstreetmap.org/copyright" },
+    { "text": "Overture Maps Foundation · 2026-09-23.1", "url": "https://docs.overturemaps.org/attribution/" },
+    { "text": "Qian Shi et al. East Asian Buildings · CC BY 4.0", "url": "https://doi.org/10.5281/zenodo.8174931" }
+  ],
+  "thumbnail": "previews/day.png"
+}

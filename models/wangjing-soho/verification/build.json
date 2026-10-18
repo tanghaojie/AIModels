@@ -1,0 +1,9 @@
+{
+  "blender": "5.2.1 LTS",
+  "parts": 404,
+  "asset_objects": 814,
+  "context_objects": 43,
+  "asset_triangles": 757278,
+  "context_triangles": 82245,
+  "materials": 25
+}

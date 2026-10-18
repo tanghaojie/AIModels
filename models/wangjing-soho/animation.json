@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "standard_id": "CS-AM-1",
+  "fps": 30,
+  "time_origin": "clip_start_seconds",
+  "clips": [
+    {
+      "name": "BUILD_ASSEMBLY",
+      "file": "wangjing-soho-assembly.glb",
+      "frame_start": 0,
+      "frame_end": 900,
+      "duration_s": 30,
+      "hold_start_s": 27,
+      "initial_state": "empty_building",
+      "final_state": "assembled",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 1212,
+      "samples_per_channel": 901,
+      "pivot_envelope_gltf_m": [
+        [
+          -161.37343771383553,
+          0.0,
+          -125.5980651697611
+        ],
+        [
+          136.19392205232958,
+          497.2618813621182,
+          147.6351532759243
+        ]
+      ]
+    },
+    {
+      "name": "BUILD_EXPLODE",
+      "file": "wangjing-soho-explode.glb",
+      "frame_start": 0,
+      "frame_end": 360,
+      "duration_s": 12,
+      "hold_start_s": 8,
+      "initial_state": "assembled",
+      "final_state": "exploded",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 1212,
+      "samples_per_channel": 361,
+      "pivot_envelope_gltf_m": [
+        [
+          -130.30285199109753,
+          0.0,
+          -128.72974969139767
+        ],
+        [
+          124.56459658509652,
+          343.1,
+          145.82484321080443
+        ]
+      ]
+    }
+  ],
+  "parts_file": "parts.json",
+  "seed": 7331,
+  "hover_height_m": 85,
+  "descent_interval_s": [
+    22,
+    27
+  ],
+  "note": "Production appendix; catalog v1 does not control animations"
+}

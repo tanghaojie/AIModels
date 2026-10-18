@@ -1,0 +1,135 @@
+{
+  "videos": [
+    {
+      "file": "assembly-preview.mp4",
+      "codec": "h264",
+      "pixels": [
+        960,
+        660
+      ],
+      "fps": "30/1",
+      "duration_s": 30.0,
+      "frames": 900,
+      "bytes": 2379026,
+      "sha256": "766916acff1a009c2148383e5692312838a9c7f8ec2f2ac349303f0c0dc06213",
+      "decoded_samples": [
+        "start",
+        "middle",
+        "end"
+      ],
+      "render_sampling_fps": 10,
+      "container_fps": 30
+    },
+    {
+      "file": "explode-preview.mp4",
+      "codec": "h264",
+      "pixels": [
+        960,
+        660
+      ],
+      "fps": "30/1",
+      "duration_s": 12.0,
+      "frames": 360,
+      "bytes": 1125160,
+      "sha256": "72c0f1d188cec6c05e29a742b169c1328b895d9fb12e156d2b29e7808731a07c",
+      "decoded_samples": [
+        "start",
+        "middle",
+        "end"
+      ],
+      "render_sampling_fps": 10,
+      "container_fps": 30
+    }
+  ],
+  "images": [
+    {
+      "file": "beauty-day.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2567378
+    },
+    {
+      "file": "day.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2781913
+    },
+    {
+      "file": "sunset.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2793347
+    },
+    {
+      "file": "blue.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2615025
+    },
+    {
+      "file": "night.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2708541
+    },
+    {
+      "file": "low.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2378787
+    },
+    {
+      "file": "rear.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 3021707
+    },
+    {
+      "file": "aerial.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2976392
+    },
+    {
+      "file": "detail.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 3082191
+    },
+    {
+      "file": "district.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "bytes": 2815318
+    }
+  ],
+  "python_dependencies": {
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0",
+    "mapbox-earcut": "2.1.0",
+    "overturemaps": "1.0.2"
+  },
+  "source": "Actual saved Blender outputs and actual encoded MP4; no browser execution"
+}

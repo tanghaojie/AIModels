@@ -1,0 +1,11 @@
+references/*.jpg
+references/*.webp
+references/*.html
+references/*-jina.txt
+*.blend1
+*.log
+previews/frames/
+previews/frames-explode/
+previews/*draft*.png
+__pycache__/
+references/overture/

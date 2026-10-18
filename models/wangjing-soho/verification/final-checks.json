@@ -1,0 +1,8 @@
+{
+  "references": 19,
+  "reference_sha256": "all 19 originals verified",
+  "roundtrip_max_error_m": 1.5256484516612545e-05,
+  "peak_moving_parts": 404,
+  "catalog_tests": "7 passed",
+  "browser_testing": "not performed per repository instructions"
+}

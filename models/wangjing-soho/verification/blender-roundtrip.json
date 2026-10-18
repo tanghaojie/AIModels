@@ -1,0 +1,49 @@
+{
+  "blender": "5.2.1 LTS",
+  "file": "wangjing-soho-assembly.glb",
+  "imported_nodes": 814,
+  "samples": [
+    {
+      "frame": 0,
+      "max_position_error_m": 1.5256484516612545e-05
+    },
+    {
+      "frame": 30,
+      "max_position_error_m": 1.5256484516612545e-05
+    },
+    {
+      "frame": 120,
+      "max_position_error_m": 1.5256484516612545e-05
+    },
+    {
+      "frame": 225,
+      "max_position_error_m": 1.5256484516612545e-05
+    },
+    {
+      "frame": 450,
+      "max_position_error_m": 1.5256484516612545e-05
+    },
+    {
+      "frame": 600,
+      "max_position_error_m": 1.4695504432893358e-05
+    },
+    {
+      "frame": 660,
+      "max_position_error_m": 1.0850694479813683e-05
+    },
+    {
+      "frame": 735,
+      "max_position_error_m": 7.459852440661052e-06
+    },
+    {
+      "frame": 810,
+      "max_position_error_m": 7.459852440661052e-06
+    },
+    {
+      "frame": 900,
+      "max_position_error_m": 7.459852440661052e-06
+    }
+  ],
+  "max_position_error_m": 1.5256484516612545e-05,
+  "passed": true
+}

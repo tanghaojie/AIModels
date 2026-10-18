@@ -1,0 +1,45 @@
+{
+  "clips": {
+    "BUILD_ASSEMBLY": {
+      "geometry_envelope_gltf_m": [
+        [
+          -166.45012028635475,
+          -2.9343825147520874e-07,
+          -169.23717613263221
+        ],
+        [
+          173.38934983834696,
+          498.64167386108386,
+          196.0770359594034
+        ]
+      ],
+      "sampled_fps": 30,
+      "sampled_times": 901,
+      "random_progress_pause_replay": "passed pure deterministic sampling"
+    },
+    "BUILD_EXPLODE": {
+      "geometry_envelope_gltf_m": [
+        [
+          -140.76618512098034,
+          -2.9343825147520874e-07,
+          -143.56298257103634
+        ],
+        [
+          153.51904277810954,
+          344.54985961914065,
+          160.95687751256224
+        ]
+      ],
+      "sampled_fps": 30,
+      "sampled_times": 361,
+      "random_progress_pause_replay": "passed pure deterministic sampling"
+    }
+  },
+  "dependency_errors": [],
+  "peak_moving_parts": 404,
+  "peak_reason": "All 404 parts descend together from the assembled 85 m hover at 22-27 seconds",
+  "root_animation_channels": 0,
+  "topology": "Fixed mesh topology; core TRS only",
+  "placement": "WGS84 reference anchor; ellipsoid demonstration height 0",
+  "performance": "Actual target-engine GPU memory / ready time / frame rate not measured"
+}

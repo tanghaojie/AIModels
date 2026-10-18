@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "source": "OpenStreetMap Overpass API + Overture 2026-09-23.1 nonoverlapping infill",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "raw_sha256": "b5049cf812a1b2e0c46dbe0ec50368b503ccd840ac6694b34048f7ba198b0814",
+  "anchor": [
+    116.47506,
+    39.99547
+  ],
+  "radius_m": 1500,
+  "area_km2": 7.0685834705770345,
+  "building_count": 1463,
+  "overture_infill": 694,
+  "road_polygons": 1210,
+  "greens": 73,
+  "heights": {
+    "source_height": 4,
+    "floors_estimate": 58,
+    "type_estimate": 1411
+  },
+  "license": "ODbL-1.0 plus East Asian Buildings CC BY 4.0",
+  "excluded_ids": [
+    327007845,
+    327007846,
+    327007847,
+    461446738,
+    691614969
+  ],
+  "limitations": [
+    "Missing heights estimated by levels or type; not measured",
+    "Building facades and roof equipment are illustrative; source coverage is incomplete",
+    "Ground is a flat ellipsoid demonstration at height 0, not surveyed terrain",
+    "No fictional district building footprints have been inserted"
+  ]
+}

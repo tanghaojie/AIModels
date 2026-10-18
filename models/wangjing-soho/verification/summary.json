@@ -1,0 +1,134 @@
+{
+  "standard": "CS-AM-1",
+  "reports": [
+    {
+      "file": "wangjing-soho.glb",
+      "bytes": 51400492,
+      "sha256": "87666504b10e7cfa75251faa935ea5b34d3821e05f028495a754a5dee843245f",
+      "nodes": 814,
+      "meshes": 409,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -170.06192016601562,
+        -0.30000001192092896,
+        -174.98194885253906
+      ],
+      "hi": [
+        201.47779846191406,
+        200,
+        193.1405487060547
+      ],
+      "triangles": 757278,
+      "primitives": 1169,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "wangjing-soho-assembly.glb",
+      "bytes": 66244380,
+      "sha256": "29ed69175bea129f60e41ac244b208a308c70c469378df37f123eceed3ed0ba5",
+      "nodes": 814,
+      "meshes": 409,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -170.06192016601562,
+        -0.30000001192092896,
+        -174.98194885253906
+      ],
+      "hi": [
+        201.47779846191406,
+        200,
+        193.1405487060547
+      ],
+      "triangles": 757278,
+      "primitives": 1169,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "wangjing-soho-explode.glb",
+      "bytes": 57514608,
+      "sha256": "5d7c6313795c2c892f416e051599d6915fbb8fb421727e3b167dbcb0bef1b0a8",
+      "nodes": 814,
+      "meshes": 409,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -170.06192016601562,
+        -0.30000001192092896,
+        -174.98194885253906
+      ],
+      "hi": [
+        201.47779846191406,
+        200,
+        193.1405487060547
+      ],
+      "triangles": 757278,
+      "primitives": 1169,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "../../model-assets/geo-context/wangjing-soho-1500-v1/district.glb",
+      "bytes": 9602224,
+      "sha256": "fac5aa68993dd79187b023dbcdc84c63b594729834cdd24bcef5a128d2b88faf",
+      "nodes": 43,
+      "meshes": 42,
+      "materials": 18,
+      "textures": 16,
+      "lo": [
+        -1500,
+        -0.3799999952316284,
+        -1500
+      ],
+      "hi": [
+        1500,
+        149.99000549316406,
+        1500
+      ],
+      "triangles": 82245,
+      "primitives": 128,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    }
+  ],
+  "animation_checks": [
+    {
+      "file": "wangjing-soho-assembly.glb",
+      "clip": "BUILD_ASSEMBLY",
+      "duration_s": 30,
+      "part_count": 404,
+      "channels": 1212
+    },
+    {
+      "file": "wangjing-soho-explode.glb",
+      "clip": "BUILD_EXPLODE",
+      "duration_s": 12,
+      "part_count": 404,
+      "channels": 1212
+    }
+  ],
+  "endpoint_max_component_error": 0,
+  "geo_root_fixed": true,
+  "reference_images_local_only": true,
+  "engine_acceptance": "pending maintainer manual acceptance",
+  "device_performance": "not measured"
+}

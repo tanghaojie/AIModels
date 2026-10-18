@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "models": [
     {
       "id": "beijing-ncpa",
@@ -73,6 +73,14 @@
       "manifest": "models/taipei-101/model.json",
       "variants": [],
       "thumbnail": "models/taipei-101/preview-day.png"
+    },
+    {
+      "id": "wangjing-soho",
+      "label": "望京 SOHO",
+      "description": "三塔曲面幕墙与流线场地，配套半径 1500 米真实轮廓街区；项目附 85 米高空飞入组装、整体落地及爆炸动画。",
+      "manifest": "models/wangjing-soho/model.json",
+      "variants": [],
+      "thumbnail": "models/wangjing-soho/previews/day.png"
     }
   ]
 }
