@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "models": [
     {
       "id": "beijing-ncpa",
@@ -17,6 +17,9 @@
           "label": "兼容版"
         }
       ],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/beijing-ncpa/renders/day.png"
     },
     {
@@ -25,6 +28,9 @@
       "description": "双塔、悬挑环体与立面斜向结构建筑模型。",
       "manifest": "models/cctv/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/cctv/preview-day.png"
     },
     {
@@ -33,6 +39,9 @@
       "description": "成都 OPPO 大厦独立建模项目，保留结构与幕墙表达。",
       "manifest": "models/cd-tower-gpt-56/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/cd-tower-gpt-56/chengdu-oppo-tower-preview.png"
     },
     {
@@ -40,7 +49,10 @@
       "label": "成都 OPPO 大厦",
       "description": "成都 OPPO 大厦三维建筑模型。",
       "manifest": "models/chengdu-oppo-tower/model.json",
-      "variants": []
+      "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": []
     },
     {
       "id": "chengdu-tianfu-airport",
@@ -48,6 +60,9 @@
       "description": "航站楼、交通中心及配套建筑模型。",
       "manifest": "models/chengdu-tianfu-airport/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/chengdu-tianfu-airport/preview-day.png"
     },
     {
@@ -56,6 +71,9 @@
       "description": "扭转塔身、幕墙与冠部建筑模型。",
       "manifest": "models/shanghai-tower/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/shanghai-tower/preview-day.png"
     },
     {
@@ -64,6 +82,9 @@
       "description": "超高层建筑模型，包含主体、顶部开口与昼夜材质。",
       "manifest": "models/Shanghai-World-Financial-Center/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/Shanghai-World-Financial-Center/preview-day.png"
     },
     {
@@ -72,6 +93,9 @@
       "description": "主体建筑与显式关联的信义街区三维瓦片。",
       "manifest": "models/taipei-101/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [],
       "thumbnail": "models/taipei-101/preview-day.png"
     },
     {
@@ -80,6 +104,22 @@
       "description": "三塔曲面幕墙与流线场地，配套半径 1500 米真实轮廓街区；项目附 85 米高空飞入组装、整体落地及爆炸动画。",
       "manifest": "models/wangjing-soho/model.json",
       "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [
+        {
+          "id": "assembly",
+          "label": "飞入拼装",
+          "defaultVariant": "original",
+          "variants": []
+        },
+        {
+          "id": "explode",
+          "label": "爆炸分解",
+          "defaultVariant": "original",
+          "variants": []
+        }
+      ],
       "thumbnail": "models/wangjing-soho/previews/day.png"
     }
   ]

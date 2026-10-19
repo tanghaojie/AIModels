@@ -29,5 +29,8 @@
       "text": "AIModels · 模型工程与来源说明",
       "url": "https://github.com/tanghaojie/AIModels/tree/master/models/chengdu-oppo-tower"
     }
-  ]
+  ],
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": []
 }

@@ -51,5 +51,8 @@
       "url": "https://doi.org/10.5281/zenodo.8174931"
     }
   ],
-  "thumbnail": "preview-day.png"
+  "thumbnail": "preview-day.png",
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": []
 }

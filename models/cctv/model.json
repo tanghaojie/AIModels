@@ -30,5 +30,8 @@
       "url": "https://github.com/tanghaojie/AIModels/tree/master/models/cctv"
     }
   ],
-  "thumbnail": "preview-day.png"
+  "thumbnail": "preview-day.png",
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": []
 }

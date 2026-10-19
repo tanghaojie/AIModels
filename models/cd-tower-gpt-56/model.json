@@ -30,5 +30,8 @@
       "url": "https://github.com/tanghaojie/AIModels/tree/master/models/cd-tower-gpt-56"
     }
   ],
-  "thumbnail": "chengdu-oppo-tower-preview.png"
+  "thumbnail": "chengdu-oppo-tower-preview.png",
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": []
 }

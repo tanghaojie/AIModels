@@ -3,13 +3,39 @@
   "id": "wangjing-soho",
   "label": "望京 SOHO",
   "description": "三塔曲面幕墙与流线场地，配套半径 1500 米真实轮廓街区；项目附 85 米高空飞入组装、整体落地及爆炸动画。",
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "model": {
     "url": "wangjing-soho.glb",
     "bytes": 51400492,
     "sha256": "87666504b10e7cfa75251faa935ea5b34d3821e05f028495a754a5dee843245f"
   },
   "variants": [],
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": [
+    {
+      "id": "assembly",
+      "label": "飞入拼装",
+      "model": {
+        "url": "wangjing-soho-assembly.glb",
+        "bytes": 66244380,
+        "sha256": "29ed69175bea129f60e41ac244b208a308c70c469378df37f123eceed3ed0ba5"
+      },
+      "variants": [],
+      "defaultVariant": "original"
+    },
+    {
+      "id": "explode",
+      "label": "爆炸分解",
+      "model": {
+        "url": "wangjing-soho-explode.glb",
+        "bytes": 57514608,
+        "sha256": "5d7c6313795c2c892f416e051599d6915fbb8fb421727e3b167dbcb0bef1b0a8"
+      },
+      "variants": [],
+      "defaultVariant": "original"
+    }
+  ],
   "placement": {
     "crs": "EPSG:4326",
     "coordinateSource": "manifest",

@@ -6,7 +6,7 @@
 
 新建筑或明确委托重制前，先阅读 [CS-AM-1 建模详细要求](docs/modeling-requirements.md)，将[逐建筑任务书](docs/templates/model-brief.md)复制到模型项目填写。要求覆盖资料与几何、PBR/UV/纹理、昼夜光照、WGS84/高程/朝向、部件与枢轴、爆炸分解、从无到有的飞入拼装、脚本、导出与验收。
 
-默认分别交付完整静态 GLB、拼装动画 GLB、爆炸动画 GLB 和可编辑源工程；部件/时间附录供制作与验收使用。现行发布目录仍使用静态成品和质量版本，不会因新增文档自动获得通用动画控制。既有模型与历史验收未因此重制，见[本次同步记录](docs/verification/2026-10-17-modeling-requirements.md)。
+默认分别交付完整静态 GLB、拼装动画 GLB、爆炸动画 GLB 和可编辑源工程；部件/时间附录供制作与验收使用。发布目录通过 `modes` 显式声明动画文件，各模式 `variants` 声明精细度；未声明时使用静态/原始版。已有模型与历史验收未因此重制，见[模式声明与默认规则](docs/publishing-protocol.md)。
 
 ## 发布地址与模型清单
 
@@ -14,7 +14,7 @@
 
 各分类子目录、模型项目、GLB 文件及完整发布地址见 [模型与发布地址清单](docs/model-catalog.md)。新增模型或调整文件路径时，同步更新该清单。
 
-程序读取入口为 [catalog.json](https://jt-ai-models.vercel.app/catalog.json)，每个模型的 `model.json` 声明定位、质量版本和配套资源。维护步骤见 [静态发布协议](docs/publishing-protocol.md)：新增/调整 `model.source.json` 后执行 `python tools/catalog/publish.py`，再执行 `python tools/catalog/publish.py --check`。CI 会核对清单、Git 跟踪文件、文件摘要及嵌套瓦片/纹理引用。
+程序读取入口为 [catalog.json](https://jt-ai-models.vercel.app/catalog.json)，每个模型的 `model.json` 声明定位、模式、精细度、默认选择和配套资源。维护步骤见 [静态发布协议](docs/publishing-protocol.md)：新增/调整 `model.source.json` 后执行 `python tools/catalog/publish.py`，再执行 `python tools/catalog/publish.py --check`。CI 会核对清单、Git 跟踪文件、文件摘要及嵌套瓦片/纹理引用。
 
 ## 项目目录
 

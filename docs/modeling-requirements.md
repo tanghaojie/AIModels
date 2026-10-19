@@ -327,11 +327,11 @@ models/<building-id>/
 
 ## 11. 发布与当前软件能力
 
-现行 [发布 v1](publishing-protocol.md)只将静态 `<id>.glb` 作为主模型，质量版本列于 `variants`；`resources.kind` 只支持 `3d-tiles | geojson`。不要把动画当质量档或塞入未定义的 `kind`。动画直接文件地址及制作附录列在项目 README，后续目录发现/播放需另做协议及软件工作。
+现行 [发布 v1](publishing-protocol.md)将静态 `<id>.glb` 作为主模型，精细度列于 `variants`；可选 `modes` 分别声明 assembly/explode 的主文件与独立精细度，未声明使用静态/原始版。`resources.kind` 只支持 `3d-tiles | geojson`。不要把动画当精细度档或塞入未定义的 `kind`。动画直接文件地址及制作附录仍列在项目 README；运行时只按正式发布声明选择文件。
 
 新增/调整正式模型时维护 `model.source.json`，先让目标文件进入 Git 跟踪，再运行 `python tools/catalog/publish.py` 和 `python tools/catalog/publish.py --check`，按[发布指南](vercel-deployment.md)验证发布。本文不会自动增加目录项、重导出旧模型或修改清单 Schema。
 
-当前 Cyber-Sight 的专用拼装面板仅 DEV `/geo.html?assemblyPreview=1`，加载固定 `tmp/building_assembly.glb` 示例，不是通用生产播放器。该示例的灰色修正和柔光对照不属于新资产接口。模型含动画不等于普通 AI 模型卡片已有播放/拖动/选择 clip 功能。
+Cyber-Sight 的 DEV `/geo.html?assemblyPreview=1` 仍加载固定 `tmp/building_assembly.glb` 示例，其灰色修正和柔光对照不属于新资产接口。正式外部数据通过模式声明加载对应 GLB，只有当前 GLB 自带动画才显示播放/拖动/片段控制；静态主文件不会因旁边存在动画文件而自动获得动画。
 
 ## 12. 交付与验收门槛
 

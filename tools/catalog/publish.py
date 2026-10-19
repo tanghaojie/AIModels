@@ -12,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[2]
 ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,79}$')
+MODE_LABELS = {'assembly': '飞入拼装', 'explode': '爆炸分解'}
 
 
 def require(condition, message):
@@ -27,6 +28,13 @@ def text(value, label, maximum=2000):
 def identifier(value):
     require(isinstance(value, str) and ID.fullmatch(value), f'Invalid id: {value}')
     return value
+
+
+def default_variant(value, variants):
+    key = identifier(value)
+    require(key == 'original' or key in {item['id'] for item in variants},
+            f'Unknown defaultVariant: {key}')
+    return key
 
 
 def placement(value):
@@ -109,6 +117,41 @@ class Publication:
             digest = hashlib.file_digest(stream, 'sha256').hexdigest()
         return {'url': value, 'bytes': path.stat().st_size, 'sha256': digest}
 
+    def model_file(self, value, base):
+        require(isinstance(value, dict), 'Missing model file')
+        return self.file(value.get('url'), base)
+
+    def variants(self, value, base):
+        require(isinstance(value, list) and len(value) <= 8, 'Invalid variants')
+        result = []
+        seen = {'original'}
+        for variant in value:
+            require(isinstance(variant, dict), 'Invalid variant')
+            key = identifier(variant.get('id'))
+            require(key not in seen, 'Duplicate variant')
+            seen.add(key)
+            result.append({'id': key, 'label': text(variant.get('label'), 'variant label', 200),
+                           **self.file(variant.get('url'), base)})
+        return result
+
+    def modes(self, value, base):
+        require(isinstance(value, list) and len(value) <= 2, 'Invalid modes')
+        result = []
+        seen = set()
+        for mode in value:
+            require(isinstance(mode, dict), 'Invalid mode')
+            key = identifier(mode.get('id'))
+            require(key in MODE_LABELS, f'Unsupported mode: {key}; static uses top-level model')
+            require(key not in seen, 'Duplicate mode')
+            seen.add(key)
+            variants = self.variants(mode.get('variants', []), base)
+            result.append({'id': key,
+                           'label': text(mode.get('label', MODE_LABELS[key]), 'mode label', 200),
+                           'model': self.model_file(mode.get('model'), base),
+                           'variants': variants,
+                           'defaultVariant': default_variant(mode.get('defaultVariant', 'original'), variants)})
+        return result
+
     def manifest(self, source):
         data = json.loads(source.read_text(encoding='utf-8'))
         require(data.get('version') == 1, 'Unsupported publication version')
@@ -119,16 +162,13 @@ class Publication:
         placement(data.get('placement'))
         if data.get('thumbnail'):
             self.asset(data['thumbnail'], source.parent)
-        model = self.file(data['model']['url'], source.parent)
-        variants = []
-        seen = {'original'}
-        require(isinstance(data.get('variants'), list) and len(data['variants']) <= 8, 'Invalid variants')
-        for variant in data['variants']:
-            key = identifier(variant.get('id'))
-            require(key not in seen, 'Duplicate variant')
-            seen.add(key)
-            variants.append({'id': key, 'label': text(variant.get('label'), 'variant label', 200),
-                             **self.file(variant['url'], source.parent)})
+        model = self.model_file(data.get('model'), source.parent)
+        variants = self.variants(data.get('variants', []), source.parent)
+        variant = default_variant(data.get('defaultVariant', 'original'), variants)
+        modes = self.modes(data.get('modes', []), source.parent)
+        mode = identifier(data.get('defaultMode', 'static'))
+        require(mode == 'static' or mode in {item['id'] for item in modes},
+                f'Unknown defaultMode: {mode}')
         resources = data.get('resources')
         require(isinstance(resources, list) and len(resources) <= 16, 'Invalid resources')
         seen = set()
@@ -148,7 +188,8 @@ class Publication:
             parsed = urlsplit(text(credit.get('url'), 'attribution URL', 4000))
             require(parsed.scheme in ('http', 'https') and parsed.netloc and not parsed.username
                     and not parsed.password, 'Invalid attribution URL')
-        return {**data, 'model': model, 'variants': variants}
+        return {**data, 'model': model, 'variants': variants, 'defaultMode': mode,
+                'defaultVariant': variant, 'modes': modes}
 
     def build(self):
         outputs = {}
@@ -166,6 +207,12 @@ class Publication:
             entry['manifest'] = target.relative_to(self.root).as_posix()
             entry['variants'] = [{name: variant[name] for name in ('id', 'label')}
                                  for variant in manifest['variants']]
+            entry['defaultMode'] = manifest['defaultMode']
+            entry['defaultVariant'] = manifest['defaultVariant']
+            entry['modes'] = [{**{name: mode[name] for name in ('id', 'label', 'defaultVariant')},
+                               'variants': [{name: variant[name] for name in ('id', 'label')}
+                                            for variant in mode['variants']]}
+                              for mode in manifest['modes']]
             if manifest.get('thumbnail'):
                 entry['thumbnail'] = self.asset(manifest['thumbnail'], source.parent).relative_to(self.root).as_posix()
             models.append(entry)

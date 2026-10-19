@@ -3,7 +3,9 @@
   "id": "beijing-ncpa",
   "label": "北京国家大剧院",
   "description": "椭球壳体、水面与场地模型，提供均衡和兼容版本。",
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-19",
+  "defaultMode": "static",
+  "defaultVariant": "original",
   "model": {
     "url": "beijing-ncpa.glb"
   },

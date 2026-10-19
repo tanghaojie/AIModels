@@ -105,6 +105,70 @@ class PublicationTests(unittest.TestCase):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 placement({**self.position, 'longitude': value})
 
+    def test_undeclared_modes_and_precision_use_static_original(self):
+        del self.source['variants']
+        self.save()
+        outputs = Publication(self.root).build()
+        for item in (outputs[self.base / 'model.json'], outputs[self.root / 'catalog.json']['models'][0]):
+            self.assertEqual(item['defaultMode'], 'static')
+            self.assertEqual(item['defaultVariant'], 'original')
+            self.assertEqual(item['modes'], [])
+            self.assertEqual(item['variants'], [])
+
+    def test_modes_have_independent_precision_and_integrity(self):
+        self.source['variants'] = [{'id': 'balanced', 'label': 'Balanced', 'url': 'example.glb'}]
+        self.source['defaultVariant'] = 'balanced'
+        self.source['defaultMode'] = 'assembly'
+        self.source['modes'] = [
+            {'id': 'assembly', 'model': {'url': 'example.glb'}, 'defaultVariant': 'low',
+             'variants': [{'id': 'low', 'label': 'Low', 'url': 'example.glb'}]},
+            {'id': 'explode', 'model': {'url': 'example.glb'}}]
+        self.save()
+        outputs = Publication(self.root).build()
+        manifest = outputs[self.base / 'model.json']
+        catalog = outputs[self.root / 'catalog.json']['models'][0]
+        self.assertEqual(manifest['defaultMode'], 'assembly')
+        self.assertEqual(catalog['defaultVariant'], 'balanced')
+        assembly, explode = manifest['modes']
+        self.assertEqual(assembly['model'], manifest['model'])
+        self.assertEqual(assembly['defaultVariant'], 'low')
+        self.assertEqual(len(assembly['variants'][0]['sha256']), 64)
+        self.assertEqual(catalog['modes'][0], {'id': 'assembly', 'label': '飞入拼装',
+                         'defaultVariant': 'low', 'variants': [{'id': 'low', 'label': 'Low'}]})
+        self.assertEqual(explode['variants'], [])
+        self.assertEqual(explode['defaultVariant'], 'original')
+
+    def test_invalid_mode_declarations_rejected(self):
+        mode = {'id': 'assembly', 'model': {'url': 'example.glb'}}
+        for modes in (None, {}, [mode, mode], [{**mode, 'id': 'static'}],
+                      [{**mode, 'id': 'unknown'}], [None], [{**mode, 'model': None}],
+                      [{**mode, 'variants': None}]):
+            with self.subTest(modes=modes), self.assertRaises(ValueError):
+                self.source['modes'] = modes
+                self.save()
+                Publication(self.root).build()
+
+    def test_invalid_explicit_defaults_rejected(self):
+        for fields in ({'defaultMode': 'assembly'}, {'defaultMode': None},
+                       {'defaultVariant': 'balanced'}, {'defaultVariant': None},
+                       {'modes': [{'id': 'assembly', 'model': {'url': 'example.glb'},
+                                   'defaultVariant': 'balanced'}]}):
+            with self.subTest(fields=fields), self.assertRaises(ValueError):
+                (self.base / 'model.source.json').write_text(json.dumps({**self.source, **fields}), encoding='utf-8')
+                Publication(self.root).build()
+
+    def test_mode_files_and_precision_files_must_exist_and_be_tracked(self):
+        (self.base / 'untracked.glb').write_bytes((self.base / 'example.glb').read_bytes())
+        for url in ('missing.glb', 'untracked.glb', 'https://example.com/model.glb'):
+            for precision in (False, True):
+                with self.subTest(url=url, precision=precision), self.assertRaises(ValueError):
+                    mode = {'id': 'assembly', 'model': {'url': 'example.glb' if precision else url}}
+                    if precision:
+                        mode['variants'] = [{'id': 'low', 'label': 'Low', 'url': url}]
+                    self.source['modes'] = [mode]
+                    self.save()
+                    Publication(self.root).build()
+
 
 if __name__ == '__main__':
     unittest.main()

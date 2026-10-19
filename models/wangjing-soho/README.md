@@ -17,7 +17,7 @@
 - [任务书](model-brief.md)、[部件](parts.json)、[动画](animation.json)、[材质](materials.md)、[参考来源](references/README.md)、[验证摘要](verification/summary.json)。
 - [作品展示板](previews/portfolio-board.jpg)：日景、夜景、幕墙近景与空场/悬空装配/落地阶段。
 
-目录 v1 只发现静态主模型与街区，不自动控制这两个动画。请把动画 GLB 交给支持 glTF 核心节点动画的播放器；有动画文件不等于当前 Cyber-Sight 普通模型卡已有拼装拖动面板。
+目录 v1 通过 `modes` 显式声明飞入拼装和爆炸分解，默认静态/原始版；三种模式共用街区与定位。适配后的 Cyber-Sight 可在 AI 模型卡选择模式，加载后在“已加载数据”的动画面板播放或拖动。模型不会自动播放；实际 GPU、播放和视觉由维护者人工验收。
 
 ## 精度与依赖
 

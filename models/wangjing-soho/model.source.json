@@ -3,9 +3,27 @@
   "id": "wangjing-soho",
   "label": "望京 SOHO",
   "description": "三塔曲面幕墙与流线场地，配套半径 1500 米真实轮廓街区；项目附 85 米高空飞入组装、整体落地及爆炸动画。",
-  "updatedAt": "2026-10-18",
+  "updatedAt": "2026-10-19",
   "model": { "url": "wangjing-soho.glb" },
   "variants": [],
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": [
+    {
+      "id": "assembly",
+      "label": "飞入拼装",
+      "model": { "url": "wangjing-soho-assembly.glb" },
+      "variants": [],
+      "defaultVariant": "original"
+    },
+    {
+      "id": "explode",
+      "label": "爆炸分解",
+      "model": { "url": "wangjing-soho-explode.glb" },
+      "variants": [],
+      "defaultVariant": "original"
+    }
+  ],
   "placement": {
     "crs": "EPSG:4326",
     "coordinateSource": "manifest",
@@ -30,10 +48,22 @@
     }
   ],
   "attribution": [
-    { "text": "建筑设计：Zaha Hadid Architects / CCDI；AIModels 独立展示重建", "url": "https://www.zha.com/projects/architecture/wangjing-soho" },
-    { "text": "© OpenStreetMap contributors · ODbL", "url": "https://www.openstreetmap.org/copyright" },
-    { "text": "Overture Maps Foundation · 2026-09-23.1", "url": "https://docs.overturemaps.org/attribution/" },
-    { "text": "Qian Shi et al. East Asian Buildings · CC BY 4.0", "url": "https://doi.org/10.5281/zenodo.8174931" }
+    {
+      "text": "建筑设计：Zaha Hadid Architects / CCDI；AIModels 独立展示重建",
+      "url": "https://www.zha.com/projects/architecture/wangjing-soho"
+    },
+    {
+      "text": "© OpenStreetMap contributors · ODbL",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "text": "Overture Maps Foundation · 2026-09-23.1",
+      "url": "https://docs.overturemaps.org/attribution/"
+    },
+    {
+      "text": "Qian Shi et al. East Asian Buildings · CC BY 4.0",
+      "url": "https://doi.org/10.5281/zenodo.8174931"
+    }
   ],
   "thumbnail": "previews/day.png"
 }
