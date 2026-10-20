@@ -1,0 +1,9 @@
+{
+  "blender": "5.2.1 LTS",
+  "parts": 276,
+  "triangles_asset": 885354,
+  "triangles_context": 415631,
+  "materials": 26,
+  "source_scene": "BURJ_KHALIFA",
+  "preview_collection": "BK_PREVIEW_ONLY"
+}

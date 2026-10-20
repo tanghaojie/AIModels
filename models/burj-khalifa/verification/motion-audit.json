@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "parts": 276,
+  "random_seek_deterministic": true,
+  "fixed_geo_root": true,
+  "descent_m": 120,
+  "descent_interval_s": [
+    27,
+    32
+  ],
+  "staggered_flights": true,
+  "all_flights_descending": true,
+  "rest_equals_assembly_end_and_explode_start": true,
+  "dependency_policy": "dependency completes before dependent installation; travel may overlap",
+  "envelopes": [
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "conservative_geometry_envelope_gltf_m": [
+        [
+          -197.80255803584174,
+          -68.46954577582234,
+          -201.72306285310646
+        ],
+        [
+          214.37051434860132,
+          1264.8848448991482,
+          197.06911687668511
+        ]
+      ],
+      "peak_moving_groups": 276
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "conservative_geometry_envelope_gltf_m": [
+        [
+          -166.13770416808043,
+          -68.46954577582234,
+          -151.20886984944613
+        ],
+        [
+          151.3902187374443,
+          1077.0905417406248,
+          144.40350316335235
+        ]
+      ],
+      "peak_moving_groups": 276
+    }
+  ],
+  "frontend_performance": "not measured",
+  "visual_collision_review": "See visual-review.md; numerical bounds do not prove no intersection"
+}

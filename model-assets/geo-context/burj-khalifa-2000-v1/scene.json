@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "burj-khalifa-2000-v1",
+  "label": "Burj Khalifa · Downtown Dubai 2000 m",
+  "anchor": {
+    "longitude_wgs84": 55.274375,
+    "latitude_wgs84": 25.197197
+  },
+  "model": {
+    "url": "https://jt-ai-models.vercel.app/models/burj-khalifa/burj-khalifa.glb"
+  },
+  "context": {
+    "url": "tileset.json",
+    "terrain": "ellipsoid",
+    "maximum_anchor_distance_m": 5
+  },
+  "attribution": [
+    {
+      "text": "© OpenStreetMap contributors · ODbL",
+      "url": "https://www.openstreetmap.org/copyright"
+    }
+  ],
+  "notice": "Actual OSM outlines and roads; missing heights estimated. Ellipsoid height 0 is for display, not surveyed ground."
+}

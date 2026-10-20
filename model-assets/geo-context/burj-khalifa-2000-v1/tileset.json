@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "version": "1.1",
+    "copyright": "© OpenStreetMap contributors · ODbL-1.0; original surface materials AIModels"
+  },
+  "geometricError": 4000,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        0,
+        0,
+        240,
+        2002,
+        0,
+        0,
+        0,
+        2002,
+        0,
+        0,
+        0,
+        242
+      ]
+    },
+    "transform": [
+      -0.24251874932887318,
+      -0.3499070850251662,
+      0.904847881178461,
+      0,
+      0.8218893538874044,
+      -0.5696471626950712,
+      0,
+      0,
+      0.5154440281839573,
+      0.7436848404281522,
+      0.42573502548750874,
+      0,
+      3289568.9464932946,
+      4746204.094496119,
+      2698856.260491067,
+      1
+    ],
+    "geometricError": 0,
+    "refine": "REPLACE",
+    "content": {
+      "uri": "district.glb"
+    }
+  }
+}

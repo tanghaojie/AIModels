@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "standard_id": "CS-AM-1",
+  "fps": 30,
+  "time_origin": "clip_start_seconds",
+  "clips": [
+    {
+      "file": "burj-khalifa-assembly.glb",
+      "name": "BUILD_ASSEMBLY",
+      "frame_start": 0,
+      "frame_end": 1080,
+      "duration_s": 36,
+      "hold_start_s": 32,
+      "initial_state": "empty_building",
+      "final_state": "assembled",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 828,
+      "samples_per_channel": 1081
+    },
+    {
+      "file": "burj-khalifa-explode.glb",
+      "name": "BUILD_EXPLODE",
+      "frame_start": 0,
+      "frame_end": 420,
+      "duration_s": 14,
+      "hold_start_s": 10,
+      "initial_state": "assembled",
+      "final_state": "exploded",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 828,
+      "samples_per_channel": 421
+    }
+  ],
+  "parts_file": "parts.json",
+  "seed": 8282010,
+  "hover_height_m": 120,
+  "descent_interval_s": [
+    27,
+    32
+  ],
+  "note": "Production appendix; modes are declared in model.source.json"
+}

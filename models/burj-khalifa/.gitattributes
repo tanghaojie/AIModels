@@ -1,0 +1,4 @@
+references/osm-context.json -text
+recipe.json -text
+*.glb -text
+*.blend -text

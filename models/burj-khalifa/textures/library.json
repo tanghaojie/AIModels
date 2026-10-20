@@ -1,0 +1,20 @@
+{
+  "author": "AIModels original deterministic procedural textures",
+  "seed": 8282010,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "no_baked_lighting": true,
+  "glazing_cell_m": [
+    1.5,
+    3.8
+  ],
+  "uv": "TEXCOORD_0",
+  "color_space": {
+    "baseColor": "sRGB",
+    "emissive": "sRGB",
+    "ORM": "linear"
+  },
+  "license": "MIT"
+}

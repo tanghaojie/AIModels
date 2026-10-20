@@ -1,0 +1,1 @@
+[out:json][timeout:90][bbox:25.1789,55.2543,25.2155,55.2945];(way[building];way["building:part"];way[highway];way[natural=water];way[leisure=park];way[landuse=grass];relation[natural=water];);out tags geom;

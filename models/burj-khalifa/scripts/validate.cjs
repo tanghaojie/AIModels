@@ -1,0 +1,29 @@
+// Khronos and exported-file invariants. Asset checks only; no browser execution.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const validator=require('gltf-validator');const ROOT=path.resolve(__dirname,'..');
+function read(file){const raw=fs.readFileSync(file),n=raw.readUInt32LE(12);assert.equal(raw.readUInt32LE(8),raw.length);return {raw,j:JSON.parse(raw.toString('utf8',20,20+n)),bin:28+n};}
+function values(d,idx){const a=d.j.accessors[idx],v=d.j.bufferViews[a.bufferView],width={SCALAR:1,VEC2:2,VEC3:3,VEC4:4}[a.type],out=[];assert.equal(a.componentType,5126);for(let i=0;i<a.count;i++){const row=[];for(let c=0;c<width;c++)row.push(d.raw.readFloatLE(d.bin+(v.byteOffset||0)+(a.byteOffset||0)+i*(v.byteStride||width*4)+c*4));out.push(row);}return out;}
+function extrema(d){const parents={};d.j.nodes.forEach((n,i)=>(n.children||[]).forEach(c=>parents[c]=i));function pos(i){const n=d.j.nodes[i],a=n.translation||[0,0,0];if(parents[i]===undefined)return a;const b=pos(parents[i]);return a.map((x,k)=>x+b[k]);}let lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity],tri=0,primitives=0;d.j.nodes.forEach((n,idx)=>{if(n.mesh===undefined)return;for(const p of d.j.meshes[n.mesh].primitives){primitives++;tri+=d.j.accessors[p.indices].count/3;const a=d.j.accessors[p.attributes.POSITION],at=pos(idx);for(let i=0;i<3;i++){lo[i]=Math.min(lo[i],a.min[i]+at[i]);hi[i]=Math.max(hi[i],a.max[i]+at[i]);}}});return{lo,hi,triangles:tri,primitives};}
+async function main(){
+const reports=[];const files=['burj-khalifa.glb','burj-khalifa-assembly.glb','burj-khalifa-explode.glb','../../model-assets/geo-context/burj-khalifa-2000-v1/district.glb'];
+const base=read(path.join(ROOT,files[0]));const parts=JSON.parse(fs.readFileSync(path.join(ROOT,'parts.json'),'utf8')).parts;
+let maxEndError=0;const detail=[];
+for(const file of files){const full=path.resolve(ROOT,file),d=read(full),j=d.j;const result=await validator.validateBytes(new Uint8Array(d.raw),{uri:full,maxIssues:1000,ignoredIssues:['UNUSED_OBJECT']});
+fs.writeFileSync(path.join(ROOT,'verification',path.basename(file)+'.validator.json'),JSON.stringify(result,null,2));
+assert(!j.cameras?.length);assert(!j.extensions?.KHR_lights_punctual);assert(!j.extensionsRequired?.length);assert(!j.extensionsUsed?.includes('KHR_materials_unlit'));assert(!(j.buffers||[]).some(x=>x.uri));assert(!(j.images||[]).some(x=>x.uri));
+for(const m of j.materials){assert(!m.doubleSided,`Unexpected double sided ${m.name}`);for(const c of m.pbrMetallicRoughness?.baseColorFactor||[])assert(c>=0&&c<=1);for(const c of m.emissiveFactor||[])assert(c>=0&&c<=1);}
+for(const mesh of j.meshes)for(const p of mesh.primitives){assert(p.attributes.NORMAL!==undefined);let m=j.materials[p.material];if(m.pbrMetallicRoughness?.baseColorTexture||m.emissiveTexture)assert(p.attributes.TEXCOORD_0!==undefined);}
+const geo=j.nodes.filter(x=>x.name==='GEO_ROOT');if(!file.includes('district')){assert.equal(geo.length,1);assert.equal(geo[0].extras.longitude_wgs84,55.274375);assert.equal(geo[0].extras.latitude_wgs84,25.197197);assert(!('ellipsoid_height_m' in geo[0].extras));assert.equal(j.nodes.filter(x=>x.extras?.longitude_wgs84!==undefined).length,1);}
+if(file.includes('assembly')||file.includes('explode')){
+ assert.deepEqual(j.meshes,base.j.meshes);assert.deepEqual(j.materials,base.j.materials);assert.deepEqual(j.images,base.j.images);assert(d.raw.subarray(d.bin,d.bin+base.j.buffers[0].byteLength).equals(base.raw.subarray(base.bin,base.bin+base.j.buffers[0].byteLength)),'Animation geometry changed from static');
+ assert.equal(j.animations.length,1);const an=j.animations[0];assert.equal(an.channels.length,parts.length*3);let duration=0;
+ for(const ch of an.channels){const node=j.nodes[ch.target.node],s=an.samplers[ch.sampler];assert(node.name.startsWith('PART_'));assert(!node.matrix);const ts=values(d,s.input).map(x=>x[0]);assert.equal(ts[0],0);assert(ts.every((x,i)=>!i||x>ts[i-1]));duration=Math.max(duration,ts.at(-1));const out=values(d,s.output),target=ch.target.path;const bv=base.j.nodes.find(x=>x.name===node.name);assert(bv);assert.deepEqual(node,bv,'Rest nodes changed');const compare=file.includes('assembly')?out.at(-1):out[0];const rest=bv[target]||(target==='rotation'?[0,0,0,1]:target==='scale'?[1,1,1]:[0,0,0]);const err=Math.max(...compare.map((x,i)=>Math.abs(x-rest[i])));maxEndError=Math.max(maxEndError,err);assert(err<1e-5,`Endpoint ${node.name} ${target}`);
+ if(target==='translation'&&file.includes('assembly')){const p=parts.find(x=>x.node_name===node.name);for(let k=1;k<out.length;k++)if(ts[k]>=p.start_s&&ts[k]<=p.end_s)assert(out[k][1]<=out[k-1][1]+1e-4,'Upward assembly flight');const h27=out[810][1],h32=out[960][1];assert(Math.abs(h27-h32-120)<.001);assert.deepEqual(out[960],out[1080]);}
+ }
+ detail.push({file,clip:an.name,duration_s:duration,part_count:parts.length,channels:an.channels.length});
+}else assert(!j.animations?.length);
+reports.push({file,bytes:d.raw.length,sha256:crypto.createHash('sha256').update(d.raw).digest('hex'),nodes:j.nodes.length,meshes:j.meshes.length,materials:j.materials.length,textures:j.textures?.length||0,...extrema(d),errors:result.issues.numErrors,warnings:result.issues.numWarnings,infos:result.issues.numInfos,extensions:j.extensionsUsed||[]});
+}
+const summary={standard:'CS-AM-1',reports,animation_checks:detail,endpoint_max_component_error:maxEndError,geo_root_fixed:true,reference_images_local_only:true,engine_acceptance:'pending maintainer manual acceptance',device_performance:'not measured'};fs.writeFileSync(path.join(ROOT,'verification','summary.json'),JSON.stringify(summary,null,2));console.log(JSON.stringify(summary,null,2));if(reports.some(r=>r.errors||r.warnings))process.exitCode=1;
+}
+main().catch(e=>{console.error(e);process.exitCode=1});

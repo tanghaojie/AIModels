@@ -36,6 +36,7 @@ models/
   taipei-101/
   beijing-ncpa/
   wangjing-soho/
+  burj-khalifa/
 model-assets/
   geo-context/
 tools/

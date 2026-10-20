@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "ground_area_m2": 11787406.965157729,
+  "water_area_m2": 778402.9239841251,
+  "overlap_area_m2": 0.0,
+  "triangulated_ground_area_m2": 11787406.965157736,
+  "preview_horizon": "annular; no plane under the district",
+  "camera_near_m": 5
+}

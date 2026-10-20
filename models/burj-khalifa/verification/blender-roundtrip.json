@@ -1,0 +1,44 @@
+[
+  {
+    "file": "models\\burj-khalifa\\burj-khalifa.glb",
+    "blender": "5.2.1 LTS",
+    "meshes": 279,
+    "materials": 16,
+    "all_meshes_have_uv": true,
+    "bounds_blender_m": [
+      [
+        -148.0,
+        -148.0,
+        -0.23000000417232513
+      ],
+      [
+        148.0,
+        148.0,
+        828.0009765625
+      ]
+    ],
+    "cameras_or_lights": 0,
+    "geo_metadata_count": 1
+  },
+  {
+    "file": "model-assets\\geo-context\\burj-khalifa-2000-v1\\district.glb",
+    "blender": "5.2.1 LTS",
+    "meshes": 65,
+    "materials": 20,
+    "all_meshes_have_uv": true,
+    "bounds_blender_m": [
+      [
+        -2000.0,
+        -2000.0,
+        -0.5
+      ],
+      [
+        2000.0,
+        2000.0,
+        371.54998779296875
+      ]
+    ],
+    "cameras_or_lights": 0,
+    "geo_metadata_count": 0
+  }
+]

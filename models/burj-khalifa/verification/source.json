@@ -1,0 +1,432 @@
+{
+  "blender": "5.2.1 LTS",
+  "scene": "BURJ_KHALIFA",
+  "fps": 30,
+  "unit_scale": 1.0,
+  "length_unit": "METERS",
+  "packed_images": 17,
+  "actions": 276,
+  "asset_parts": 276,
+  "geographic_roots": [
+    "GEO_ROOT"
+  ],
+  "lighting": [
+    {
+      "name": "BK_Sun",
+      "type": "SUN",
+      "energy": 3.0,
+      "location": [
+        0.0,
+        0.0,
+        1200.0
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "size": 0.01745329238474369
+    },
+    {
+      "name": "BK_Softbox",
+      "type": "AREA",
+      "energy": 1800000.0,
+      "location": [
+        -300.0,
+        -500.0,
+        650.0
+      ],
+      "rotation_euler": [
+        1.1231170892715454,
+        4.607984038784707e-08,
+        -0.5404194593429565
+      ],
+      "size": 850.0
+    },
+    {
+      "name": "BK_Rim",
+      "type": "AREA",
+      "energy": 2200000.0,
+      "location": [
+        400.0,
+        250.0,
+        800.0
+      ],
+      "rotation_euler": [
+        0.9056413173675537,
+        -4.876249093399565e-08,
+        2.1293957233428955
+      ],
+      "size": 600.0
+    }
+  ],
+  "cameras": [
+    {
+      "name": "CAM_hero",
+      "position": [
+        -220.0,
+        -600.0,
+        240.0
+      ],
+      "rotation": [
+        1.7939138412475586,
+        2.1343762313108527e-08,
+        -0.3514447808265686
+      ],
+      "lens_mm": 24.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_rear",
+      "position": [
+        680.0,
+        850.0,
+        620.0
+      ],
+      "rotation": [
+        1.3537876605987549,
+        -2.7045359729527263e-08,
+        2.4668517112731934
+      ],
+      "lens_mm": 32.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_low",
+      "position": [
+        -140.0,
+        -280.0,
+        20.0
+      ],
+      "rotation": [
+        2.2044389247894287,
+        -4.06398825703036e-08,
+        -0.4636477828025818
+      ],
+      "lens_mm": 17.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_detail",
+      "position": [
+        -97.0,
+        -125.0,
+        244.0
+      ],
+      "rotation": [
+        1.67157781124115,
+        -4.6409773801769916e-08,
+        -0.6599345207214355
+      ],
+      "lens_mm": 65.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_entry",
+      "position": [
+        -110.0,
+        -160.0,
+        26.0
+      ],
+      "rotation": [
+        1.5501983165740967,
+        2.1409043426956487e-08,
+        -0.6022874116897583
+      ],
+      "lens_mm": 45.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_aerial",
+      "position": [
+        850.0,
+        -1120.0,
+        1400.0
+      ],
+      "rotation": [
+        0.8895061016082764,
+        5.274105419061925e-08,
+        0.6491910815238953
+      ],
+      "lens_mm": 40.0,
+      "projection": "PERSP",
+      "ortho_width_m": 6.0
+    },
+    {
+      "name": "CAM_district",
+      "position": [
+        3200.0,
+        -3700.0,
+        4000.0
+      ],
+      "rotation": [
+        0.9103592038154602,
+        -7.192065254457702e-08,
+        0.713060736656189
+      ],
+      "lens_mm": 45.0,
+      "projection": "ORTHO",
+      "ortho_width_m": 4800.0
+    },
+    {
+      "name": "CAM_assembly",
+      "position": [
+        -671.5902099609375,
+        -1862.2933349609375,
+        1776.91552734375
+      ],
+      "rotation": [
+        1.039470911026001,
+        -2.152572875502301e-08,
+        -0.35299041867256165
+      ],
+      "lens_mm": 48.0,
+      "projection": "ORTHO",
+      "ortho_width_m": 1680.7552490234375
+    },
+    {
+      "name": "CAM_explode",
+      "position": [
+        -708.0736083984375,
+        -1897.2220458984375,
+        1699.6861572265625
+      ],
+      "rotation": [
+        1.039470911026001,
+        -2.152572875502301e-08,
+        -0.35299041867256165
+      ],
+      "lens_mm": 48.0,
+      "projection": "ORTHO",
+      "ortho_width_m": 1462.375244140625
+    }
+  ],
+  "coverage": [
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 1,
+      "projected_min": [
+        0.4968174695968628,
+        0.37021490931510925
+      ],
+      "projected_max": [
+        0.541397750377655,
+        0.4267820119857788
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 3,
+      "projected_min": [
+        0.41924139857292175,
+        0.14802417159080505
+      ],
+      "projected_max": [
+        0.5562905073165894,
+        0.619978129863739
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 6,
+      "projected_min": [
+        0.42350637912750244,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5441738963127136,
+        0.594297468662262
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 9,
+      "projected_min": [
+        0.43600043654441833,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.6097729206085205,
+        0.6225396394729614
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 12,
+      "projected_min": [
+        0.4133739769458771,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5925372838973999,
+        0.7374086380004883
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 18,
+      "projected_min": [
+        0.4196138381958008,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5835854411125183,
+        0.7330246567726135
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 24,
+      "projected_min": [
+        0.4341656267642975,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5478537678718567,
+        0.7711812257766724
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 25,
+      "projected_min": [
+        0.44917213916778564,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5381450057029724,
+        0.7291349768638611
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 27,
+      "projected_min": [
+        0.44917213916778564,
+        0.13564258813858032
+      ],
+      "projected_max": [
+        0.5381450057029724,
+        0.7291349768638611
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 29.5,
+      "projected_min": [
+        0.44917213916778564,
+        0.094606913626194
+      ],
+      "projected_max": [
+        0.5381450057029724,
+        0.6880993247032166
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 32,
+      "projected_min": [
+        0.44917213916778564,
+        0.05357127636671066
+      ],
+      "projected_max": [
+        0.5381450057029724,
+        0.647063672542572
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_ASSEMBLY",
+      "t": 36,
+      "projected_min": [
+        0.44917213916778564,
+        0.05357127636671066
+      ],
+      "projected_max": [
+        0.5381450057029724,
+        0.647063672542572
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "t": 0,
+      "projected_min": [
+        0.4567345678806305,
+        0.06857962161302567
+      ],
+      "projected_max": [
+        0.558993935585022,
+        0.7506996393203735
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "t": 3.5,
+      "projected_min": [
+        0.4488053619861603,
+        0.06703779846429825
+      ],
+      "projected_max": [
+        0.564720630645752,
+        0.7781088948249817
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "t": 7,
+      "projected_min": [
+        0.4162932336330414,
+        0.05804639682173729
+      ],
+      "projected_max": [
+        0.5882015824317932,
+        0.8904946446418762
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "t": 10.5,
+      "projected_min": [
+        0.4001120924949646,
+        0.053571414202451706
+      ],
+      "projected_max": [
+        0.5998879671096802,
+        0.946428656578064
+      ],
+      "inside": true
+    },
+    {
+      "clip": "BUILD_EXPLODE",
+      "t": 14,
+      "projected_min": [
+        0.4001120924949646,
+        0.053571414202451706
+      ],
+      "projected_max": [
+        0.5998879671096802,
+        0.946428656578064
+      ],
+      "inside": true
+    }
+  ]
+}

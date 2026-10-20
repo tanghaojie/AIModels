@@ -1,0 +1,134 @@
+{
+  "standard": "CS-AM-1",
+  "reports": [
+    {
+      "file": "burj-khalifa.glb",
+      "bytes": 65132712,
+      "sha256": "4f40b4d42d09a3fcfba4e9678092ced8e8157cb4a5626e155f412f0d27b8d096",
+      "nodes": 556,
+      "meshes": 279,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -148,
+        -0.23000000417232513,
+        -148
+      ],
+      "hi": [
+        148,
+        828.0009765625,
+        148
+      ],
+      "triangles": 885354,
+      "primitives": 746,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "burj-khalifa-assembly.glb",
+      "bytes": 77263312,
+      "sha256": "062454b312d57e144b5099853474116da48899bbda8048f7e87c993e2444d03c",
+      "nodes": 556,
+      "meshes": 279,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -148,
+        -0.23000000417232513,
+        -148
+      ],
+      "hi": [
+        148,
+        828.0009765625,
+        148
+      ],
+      "triangles": 885354,
+      "primitives": 746,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "burj-khalifa-explode.glb",
+      "bytes": 69972616,
+      "sha256": "ea4f5e42db8f051f486bb058d5bfad0cc4893268d894d10db1541234cd60d35e",
+      "nodes": 556,
+      "meshes": 279,
+      "materials": 16,
+      "textures": 6,
+      "lo": [
+        -148,
+        -0.23000000417232513,
+        -148
+      ],
+      "hi": [
+        148,
+        828.0009765625,
+        148
+      ],
+      "triangles": 885354,
+      "primitives": 746,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "file": "../../model-assets/geo-context/burj-khalifa-2000-v1/district.glb",
+      "bytes": 37039060,
+      "sha256": "9bcf85d0a082a2dad5aeb67e2cd94dad8e9ec6c07338d2c2681df90f5c5afa14",
+      "nodes": 66,
+      "meshes": 65,
+      "materials": 20,
+      "textures": 17,
+      "lo": [
+        -2000,
+        -0.5,
+        -2000
+      ],
+      "hi": [
+        2000,
+        371.54998779296875,
+        2000
+      ],
+      "triangles": 415631,
+      "primitives": 277,
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    }
+  ],
+  "animation_checks": [
+    {
+      "file": "burj-khalifa-assembly.glb",
+      "clip": "BUILD_ASSEMBLY",
+      "duration_s": 36,
+      "part_count": 276,
+      "channels": 828
+    },
+    {
+      "file": "burj-khalifa-explode.glb",
+      "clip": "BUILD_EXPLODE",
+      "duration_s": 14,
+      "part_count": 276,
+      "channels": 828
+    }
+  ],
+  "endpoint_max_component_error": 0,
+  "geo_root_fixed": true,
+  "reference_images_local_only": true,
+  "engine_acceptance": "pending maintainer manual acceptance",
+  "device_performance": "not measured"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "burj-khalifa",
+  "version": "1.0.0",
+  "date": "2026-10-20",
+  "seed": 8282010,
+  "anchor": [55.274375, 25.197197],
+  "height_m": 828,
+  "context_radius_m": 2000,
+  "hover_height_m": 120,
+  "fps": 30,
+  "assembly_duration_s": 36,
+  "assembly_complete_s": 25,
+  "descent_interval_s": [27, 32],
+  "explode_duration_s": 14,
+  "floor_module_m": 3.8,
+  "note": "Architectural visualization reconstruction from SOM/CTBUH drawings and OSM. Not surveyed BIM; 0 ellipsoid height is a demonstration placement."
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "models": [
     {
       "id": "beijing-ncpa",
@@ -21,6 +21,30 @@
       "defaultVariant": "original",
       "modes": [],
       "thumbnail": "models/beijing-ncpa/renders/day.png"
+    },
+    {
+      "id": "burj-khalifa",
+      "label": "哈利法塔 · Downtown Dubai",
+      "description": "828 米三翼退台塔楼与半径 2000 米真实轮廓街区；276 组构件从空中向下飞入，在离地 120 米完成组装后整体落地。另附静态成品和爆炸分解。建筑细部、部分街区高度为可视化重建估算。",
+      "manifest": "models/burj-khalifa/model.json",
+      "variants": [],
+      "defaultMode": "assembly",
+      "defaultVariant": "original",
+      "modes": [
+        {
+          "id": "assembly",
+          "label": "高空飞入拼装后落地",
+          "defaultVariant": "original",
+          "variants": []
+        },
+        {
+          "id": "explode",
+          "label": "分层与分翼爆炸",
+          "defaultVariant": "original",
+          "variants": []
+        }
+      ],
+      "thumbnail": "models/burj-khalifa/previews/sunset.png"
     },
     {
       "id": "cctv",

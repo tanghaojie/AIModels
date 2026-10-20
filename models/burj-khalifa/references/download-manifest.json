@@ -1,0 +1,383 @@
+{
+  "collected": "2026-10-20",
+  "official": "https://www.som.com/projects/burj-khalifa/",
+  "drawings_page": "https://www.archdaily.com/882100/burj-khalifa-som",
+  "files": [
+    {
+      "file": "ctbuh-engineering.pdf",
+      "url": "https://global.ctbuh.org/resources/papers/download/1326-engineering-the-worlds-tallest-burj-bubai.pdf",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "ctbuh-case-study.pdf",
+      "url": "https://global.ctbuh.org/resources/papers/download/2828-burj-khalifa-dubai-uae.pdf",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "originals/original-00.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2024/03/203188_000_N2790_large-1711642362.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2221,
+        1695
+      ],
+      "bytes": 298065,
+      "sha256": "9993f51995d09098bc3aa70df07b5cc9e74d1c3d86360919d27da477226b8358",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-01.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2595-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1923,
+        2560
+      ],
+      "bytes": 918642,
+      "sha256": "52cd1ee213788be1571906b6b6ac13e3d9b04d56f170a8d0e5173e598df9d893",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-02.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2642.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2000,
+        1545
+      ],
+      "bytes": 1427089,
+      "sha256": "cf04a40fd2b1cf662e85edab1b7888b5a457cf262639a5ea240abd669b421410",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-03.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2590_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        2000
+      ],
+      "bytes": 406220,
+      "sha256": "06e1eff07f8f0a0d175358dfa04bd14c24c3063d804861c0fcf2c37693dd550d",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-04.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2791_large.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2000,
+        1257
+      ],
+      "bytes": 847548,
+      "sha256": "64de206cce70566842c2477e06da21175e149a6acd1d1cdf1718505a2e8f3270",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-05.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2598_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1926,
+        2560
+      ],
+      "bytes": 671866,
+      "sha256": "93ad5dea3022d3c1216d1e10c1f04e392f3973a3c7c8571f7a1deb907f5b690e",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-06.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2666-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1914,
+        2560
+      ],
+      "bytes": 1019055,
+      "sha256": "74998acde4587bd4deb0be930564841035c0ec190c1ccdd52e9b697ec70d117c",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-07.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2662_large-1630926955-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1900,
+        2560
+      ],
+      "bytes": 462834,
+      "sha256": "0758541f59ee277198565b15d62dff4bf24b8adcf9381c2f7a4c91179826f82c",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-08.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2672_large-1630927111-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1921
+      ],
+      "bytes": 637710,
+      "sha256": "450954402bce91454e7291765a7056f6e39fdaa7087c52d0f533841eaa452542",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-09.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2634_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        2300
+      ],
+      "bytes": 785361,
+      "sha256": "94b4e185531f9ea40b925ae50590b65e11e9babbcf14a8e21c6bb4371c61d052",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-10.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2673_large-1630927122-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "bytes": 600065,
+      "sha256": "3300db665ccf8c37eaf73a39ff8d1046662a45b6c4589c4f1944997a2e58a156",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-11.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2678_large-1630927181-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        2014
+      ],
+      "bytes": 796705,
+      "sha256": "7daa333aa526c4a840aa670922da094752e59d0b7e15658a9991a3958baf42eb",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-12.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2676_large-1630927157-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1958
+      ],
+      "bytes": 614947,
+      "sha256": "22706c7a0cf27df16a465921d8e2d7961efa6dbde87c9b14ceadafe9517b6717",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-13.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2670_large-1630927089-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1918
+      ],
+      "bytes": 732917,
+      "sha256": "c95aa49f1d47cfa1a49dacab957488632121b86518e24f4331b30b00620c3ec7",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-14.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2671_large-1630927100-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1920
+      ],
+      "bytes": 573947,
+      "sha256": "738aa32c28e9419480f6d2ba56e95b4bdc6cd86cec417152ee54e08547e9af37",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-15.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2630_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1718
+      ],
+      "bytes": 667694,
+      "sha256": "c2149e1de4da6c3db1dfa5aae95daa3ebe74b88a406dd662d77329d1ccfd1d3e",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-16.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2667_large-1630926992-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1817
+      ],
+      "bytes": 914069,
+      "sha256": "0e8ca223db992d3baed9baa92a5c5694d9b926a35fc2a6108947799a2bd55189",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-17.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2593_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        1539
+      ],
+      "bytes": 241934,
+      "sha256": "a15eb65267dcc7e32e57343f4863f23d2af07b50a00338d69eb783d848de4dc6",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-18.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2614_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1868,
+        2560
+      ],
+      "bytes": 466304,
+      "sha256": "af6102c902dbc0dc95ebbaadba19cfa03368b58688e8a67c868d5c8b0081c06c",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-19.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2430-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        2560,
+        2560
+      ],
+      "bytes": 1977528,
+      "sha256": "b7f95ebd98ba6c6aa32c29769eed0d9bce75fd59a168568f57bac0774dffc4eb",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-20.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2596_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1905,
+        2560
+      ],
+      "bytes": 647759,
+      "sha256": "ba0ca90bca2d1e7c3de90739d611179dc68a711911cd4ca4d6c5cca5057406ad",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-21.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/08/203188_000_N2627_large-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1918,
+        2560
+      ],
+      "bytes": 464049,
+      "sha256": "37b7a47e05d88ddbfdc8c80c0ac7e27e165da821ba17db88b6dcb783efb9c27f",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/original-22.jpg",
+      "url": "https://www.som.com/wp-content/uploads/2021/09/203188_000_N2674_large-1630927133-scaled.jpg",
+      "credit": "Nick Merrick / Hedrich Blessing / SOM (satellite: Go Eye Satellite); individual credits in source page",
+      "use": "Built exterior / ground / crown / aerial / detail; see source page caption",
+      "pixels": [
+        1908,
+        2560
+      ],
+      "bytes": 746687,
+      "sha256": "aba85f346deb303bf9d7374a28896c05acf55eae0138070db7976b57d51a1e02",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/som-plan.jpg",
+      "url": "https://images.adsttc.com/media/images/59eb/89d3/b22e/38dd/0500/0150/large_jpg/Burj_Khalifa_typical_plan_(c)_SOM_(1).jpg?1508608350",
+      "credit": "© SOM, architect-supplied drawings published by ArchDaily 2017-10-23",
+      "use": "Primary architect drawing: plan / section / program axonometric",
+      "pixels": [
+        2000,
+        1415
+      ],
+      "bytes": 203610,
+      "sha256": "eadf043f63d6e9cd767d76c6ffb125ab0002cbe9f448693ad17880cd19fca088",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/som-axonometric.jpg",
+      "url": "https://images.adsttc.com/media/images/59eb/893d/b22e/385e/c400/0494/large_jpg/Burj_Khalifa_program_axonometric_(c)_SOM.jpg?1508608197",
+      "credit": "© SOM, architect-supplied drawings published by ArchDaily 2017-10-23",
+      "use": "Primary architect drawing: plan / section / program axonometric",
+      "pixels": [
+        2000,
+        3809
+      ],
+      "bytes": 1304370,
+      "sha256": "6bc9f6dbe142b067378cd3c65c7b3223063d6bba212c258b51323737355ced23",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    },
+    {
+      "file": "originals/som-section.jpg",
+      "url": "https://images.adsttc.com/media/images/59eb/88c2/b22e/38dd/0500/014e/large_jpg/Burj_Khalifa_elevator_section_(c)_SOM.jpg?1508608082",
+      "credit": "© SOM, architect-supplied drawings published by ArchDaily 2017-10-23",
+      "use": "Primary architect drawing: plan / section / program axonometric",
+      "pixels": [
+        2000,
+        2619
+      ],
+      "bytes": 522984,
+      "sha256": "46a0f26e5de2f382ada155b7773ac71fb822f90eba2a6fcb48e7645e14b247a8",
+      "status": "saved",
+      "license": "Copyright retained by source; local modeling reference/acceptance only; originals excluded from Git"
+    }
+  ]
+}

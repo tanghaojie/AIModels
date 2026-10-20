@@ -1,0 +1,9 @@
+references/originals/
+references/pages/
+*.blend1
+*.log
+__pycache__/
+local/
+references/osm-overpass.*.json
+previews/frames/
+previews/*draft*.png

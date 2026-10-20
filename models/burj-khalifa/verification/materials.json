@@ -1,0 +1,302 @@
+[
+  {
+    "name": "BK_Concrete",
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.8299999833106995,
+    "baseColorTexture": {
+      "index": 0
+    },
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Glazing",
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metallic": 1,
+    "roughness": 1,
+    "baseColorTexture": {
+      "index": 2
+    },
+    "orm": {
+      "index": 3
+    },
+    "emissive": [
+      1,
+      1,
+      1
+    ],
+    "emissiveTexture": {
+      "index": 1
+    },
+    "extensions": {
+      "KHR_materials_emissive_strength": {
+        "emissiveStrength": 1.5
+      }
+    },
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Stainless",
+    "baseColor": [
+      0.6200000047683716,
+      0.6800000071525574,
+      0.7300000190734863,
+      1
+    ],
+    "metallic": 1,
+    "roughness": 0.27000001072883606,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Steel",
+    "baseColor": [
+      0.23000000417232513,
+      0.27000001072883606,
+      0.30000001192092896,
+      1
+    ],
+    "metallic": 1,
+    "roughness": 0.36000001430511475,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Aluminium",
+    "baseColor": [
+      0.6000000238418579,
+      0.6399999856948853,
+      0.6700000166893005,
+      1
+    ],
+    "metallic": 1,
+    "roughness": 0.3199999928474426,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Slab",
+    "baseColor": [
+      0.18000000715255737,
+      0.20999999344348907,
+      0.2199999988079071,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.8399999737739563,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Roof",
+    "baseColor": [
+      0.3700000047683716,
+      0.38999998569488525,
+      0.3799999952316284,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.8199999928474426,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Louvre_dark",
+    "baseColor": [
+      0.054999999701976776,
+      0.07500000298023224,
+      0.09000000357627869,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.6000000238418579,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Dark_stone",
+    "baseColor": [
+      0.054999999701976776,
+      0.06499999761581421,
+      0.07000000029802322,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.4000000059604645,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Wood",
+    "baseColor": [
+      0.2199999988079071,
+      0.10000000149011612,
+      0.03999999910593033,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.6000000238418579,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Warm_light",
+    "baseColor": [
+      1,
+      0.6299999952316284,
+      0.2800000011920929,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.3499999940395355,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": [
+      1,
+      0.6299999952316284,
+      0.2800000011920929
+    ],
+    "emissiveTexture": null,
+    "extensions": {
+      "KHR_materials_emissive_strength": {
+        "emissiveStrength": 2.200000047683716
+      }
+    },
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Travertine",
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.7400000095367432,
+    "baseColorTexture": {
+      "index": 4
+    },
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Grass",
+    "baseColor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.9399999976158142,
+    "baseColorTexture": {
+      "index": 5
+    },
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Bark",
+    "baseColor": [
+      0.23999999463558197,
+      0.15000000596046448,
+      0.08500000089406967,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.949999988079071,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Palm_leaf",
+    "baseColor": [
+      0.18000000715255737,
+      0.25,
+      0.07999999821186066,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.800000011920929,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  },
+  {
+    "name": "BK_Water",
+    "baseColor": [
+      0.014999999664723873,
+      0.17000000178813934,
+      0.18000000715255737,
+      1
+    ],
+    "metallic": 0,
+    "roughness": 0.18000000715255737,
+    "baseColorTexture": null,
+    "orm": null,
+    "emissive": null,
+    "emissiveTexture": null,
+    "extensions": {},
+    "doubleSided": false
+  }
+]

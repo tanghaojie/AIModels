@@ -1,0 +1,17 @@
+"""Deterministic 30 fps choreography in Blender north/west/up metres."""
+import math
+def smooth(x):
+    x=max(0.,min(1.,x));return x*x*(3-2*x)
+def gltf(v):return [v[0],v[2],-v[1]]
+def pose(part,t,clip='BUILD_ASSEMBLY'):
+    base=part['assembled_blender']
+    if clip=='BUILD_EXPLODE':
+        a=smooth((t-1.5)/8.5)
+        return [base[i]+part['explode_blender'][i]*a for i in range(3)],[1,1,1],0.
+    start,end=part['start_s'],part['end_s'];spawn=part['spawn_blender']
+    if t<start:return spawn,[.0001]*3,part['yaw']
+    a=smooth((t-start)/(end-start))
+    drop=120*(1-smooth((t-27)/5))
+    if t>=end:return [base[0],base[1],base[2]+drop],[1,1,1],0.
+    pos=[spawn[i]*(1-a)+(base[i]+(120 if i==2 else 0))*a for i in range(3)]
+    return pos,[1,1,1],part['yaw']*(1-a)

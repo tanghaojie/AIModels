@@ -2,7 +2,7 @@
 
 程序消费 [catalog.json](../catalog.json)，模型描述为各项目 `model.json`；本文件仍供人阅读。生成与兼容规则见 [发布协议](publishing-protocol.md)。
 
-记录日期：2026-10-18。
+记录日期：2026-10-20。
 
 文件发布根地址：[https://jt-ai-models.vercel.app/](https://jt-ai-models.vercel.app/)（项目维护者提供）。以下按当前仓库目录及文件整理，发布 URL 不代表本次已逐项完成线上可用性验收。
 
@@ -16,7 +16,7 @@
 
 ## 模型项目列表
 
-当前共 10 个模型相关目录，其中 9 个包含主模型 GLB，1 个保存参考资料。同一建筑的不同项目分别保留。
+当前共 11 个模型相关目录，其中 10 个包含主模型 GLB，1 个保存参考资料。同一建筑的不同项目分别保留。
 
 | 模型 / 项目 | 本地子目录 | 发布目录 | 主模型文件地址 |
 | --- | --- | --- | --- |
@@ -30,8 +30,13 @@
 | 台北 101 | `models/taipei-101/` | [目录](https://jt-ai-models.vercel.app/models/taipei-101/) | [taipei-101.glb](https://jt-ai-models.vercel.app/models/taipei-101/taipei-101.glb) |
 | 北京国家大剧院 | `models/beijing-ncpa/` | [目录](https://jt-ai-models.vercel.app/models/beijing-ncpa/) | [beijing-ncpa.glb](https://jt-ai-models.vercel.app/models/beijing-ncpa/beijing-ncpa.glb) |
 | 望京 SOHO | `models/wangjing-soho/` | [目录](https://jt-ai-models.vercel.app/models/wangjing-soho/) | [wangjing-soho.glb](https://jt-ai-models.vercel.app/models/wangjing-soho/wangjing-soho.glb) |
+| 哈利法塔 | `models/burj-khalifa/` | [制作说明](https://jt-ai-models.vercel.app/models/burj-khalifa/README.md) | [burj-khalifa.glb](https://jt-ai-models.vercel.app/models/burj-khalifa/burj-khalifa.glb) |
 
 各模型的 Blender 源文件、定位数据、预览和使用限制见对应项目目录及 README。原项目中的历史 sample-data 地址与验收记录保留原样，当前 AIModels 地址以本清单为准。
+
+## 哈利法塔动画与街区
+
+哈利法塔另提供 [高空飞入拼装后落地](https://jt-ai-models.vercel.app/models/burj-khalifa/burj-khalifa-assembly.glb) 和 [爆炸分解](https://jt-ai-models.vercel.app/models/burj-khalifa/burj-khalifa-explode.glb)，通过 `modes` 发布。配套 [半径 2000 米街区](https://jt-ai-models.vercel.app/model-assets/geo-context/burj-khalifa-2000-v1/tileset.json) 含真实 OSM 轮廓与一项明确标注的 Dubai Mall 鸟瞰近似重建；详见项目验收边界。
 
 ## 国家大剧院其他 GLB 文件
 
