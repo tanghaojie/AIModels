@@ -1,0 +1,44 @@
+{
+  "status": "READY",
+  "checked_at": "2026-10-20T12:47:06Z",
+  "asset_commit": "ade025a63a2f45ae9a6dbf079f759860537fd988",
+  "deployment_id": "dpl_HznU6rCL23zefVWrKmrV7nZmGgcu",
+  "deployment_url": "https://ai-models-9734599kt-tanghaojies-projects.vercel.app",
+  "production_alias": "https://jt-ai-models.vercel.app",
+  "project": {
+    "id": "prj_o97eE6nh5hQYh1sUQIUJl0DRsgzh",
+    "name": "ai-models",
+    "framework": null
+  },
+  "target": "production",
+  "state": "READY",
+  "ready_state": "READY",
+  "source": "git",
+  "aliases": [
+    "jt-ai-models.vercel.app",
+    "ai-models-tanghaojies-projects.vercel.app",
+    "ai-models-git-master-tanghaojies-projects.vercel.app"
+  ],
+  "created_at": "2026-10-20T12:36:19.786Z",
+  "building_at": "2026-10-20T12:36:21.642Z",
+  "ready_at": "2026-10-20T12:37:12.414Z",
+  "alias_error": null,
+  "git": {
+    "githubCommitRef": "master",
+    "githubCommitSha": "ade025a63a2f45ae9a6dbf079f759860537fd988",
+    "githubCommitMessage": "feat(models): add Burj Khalifa aerial assembly and Dubai district\n\nBuild a reference-based Blender tower, 120 m airborne assembly and landing, exploded view, PBR previews, and attributed 2000 m context. Publish separate modes with deterministic motion, validation evidence, and explicit approximat...",
+    "githubRepo": "AIModels",
+    "githubOrg": "tanghaojie"
+  },
+  "github_status": {
+    "context": "Vercel",
+    "state": "success",
+    "target_url": "https://vercel.com/tanghaojies-projects/ai-models/HznU6rCL23zefVWrKmrV7nZmGgcu"
+  },
+  "catalog_workflow": {
+    "state": "success",
+    "url": "https://github.com/tanghaojie/AIModels/actions/runs/39423549604"
+  },
+  "scope": "Asset release. A subsequent documentation-only commit records this evidence; final deployment is also checked before handoff.",
+  "frontend_browser_tested": false
+}

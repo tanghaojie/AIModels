@@ -67,6 +67,8 @@ python models/burj-khalifa/scripts/media.py
 
 最终二进制的 Khronos 检查、bytes/SHA-256、资源和动画通道统计在 [verification/summary.json](verification/summary.json)。核心检查包括唯一固定 GEO_ROOT、无预览灯/相机、嵌入纹理/UV、实际 PBR/Emissive 因子、单 clip、共同时间、持续向下的飞入、120 米整体下降、末帧保持与静态/拼装末态/爆炸首态相同。源工程检查见 [source.json](verification/source.json)，真实 Blender GLB 导入检查见 [blender-roundtrip.json](verification/blender-roundtrip.json)。
 
-发布使用仓库 `tools/catalog/publish.py` 与 `--check`，静态为主文件，assembly/explode 为独立模式，默认 assembly。线上部署与完整字节/MIME/CORS/SHA-256 检查分别保存 `verification/deployment.json`、`verification/remote.json`。
+发布使用仓库 `tools/catalog/publish.py` 与 `--check`，静态为主文件，assembly/explode 为独立模式，默认 assembly。[生产部署记录](verification/deployment.json)与[线上完整字节验证](verification/remote.json)分别记录 READY/提交和 11 个资源的 HTTP、MIME、CORS、SHA-256。[生产模型清单](https://jt-ai-models.vercel.app/models/burj-khalifa/model.json)与本地清单对应；根域名仅托管文件，没有交互首页。
+
+复查命令：`python models/burj-khalifa/scripts/verify_remote.py`。本轮遇到本机 DNS 解析异常，使用当次重新查询的地址通过可选 `--resolve-ip` 完成逐请求解析覆盖，保留 HTTPS 主机名和正常证书验证，没有修改系统 DNS/代理设置。地址可能随网络环境变化，不能把记录中的临时解析地址当作长期部署地址。
 
 Cyber-Sight 实际显示、昼夜过渡、3600 倍时钟、暂停/拖动/重播交互、设备 GPU/FPS 由维护者人工验收，本任务未运行前端或浏览器自动化。动画数值可随机采样不等于前端交互已验收；Blender 画面、Validator、部署成功分别记录。
