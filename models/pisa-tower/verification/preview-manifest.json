@@ -1,0 +1,289 @@
+{
+  "renderer": "Blender 5.2.1, EEVEE stages + Cycles 32-sample hero pair",
+  "color_management": "AgX",
+  "timezone": "Asia/Singapore",
+  "date": "2026-10-21",
+  "actual_engine_acceptance": "not performed",
+  "files": [
+    {
+      "file": "aerial.png",
+      "bytes": 3699303,
+      "sha256": "d53fff9fce99b24e8bf13f3c73174b2e872826f5bcb5d5d72e2f4d4d97e441a6",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "assembly-000.png",
+      "bytes": 1545690,
+      "sha256": "ad06005c3e34b5a432a79161e81ebe1f1cdab414f7ff149a31c58028591ddf8c",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-030.png",
+      "bytes": 1545697,
+      "sha256": "6424868fd633123735952c588c4d9ab1a0d1482efe5593838bc0cb06c4a03c78",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-150.png",
+      "bytes": 1558098,
+      "sha256": "bcd429359dfbfee8cf3ed42504c358a4855f56443861f3cb0650e8c30664695c",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-210.png",
+      "bytes": 1561355,
+      "sha256": "f0bcdf59c20cc89925900e7d627d810ae65fc0568cf4b565c2db4dca7bb34a03",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-420.png",
+      "bytes": 1525965,
+      "sha256": "46035649124754c1b036f96488407189c28fa4c65ce13f76f3646e8c94931cfa",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-630.png",
+      "bytes": 1569931,
+      "sha256": "af67e42cf595f2c2e2dd01ddbe697ca61df508dbe76a304075d4949ee40bc8c1",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-720.png",
+      "bytes": 1532916,
+      "sha256": "84bdf13e4d96cd23a5e6ce62f9f40d0c88738057a70b37c6844569d1d2cbd57d",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-840.png",
+      "bytes": 1532922,
+      "sha256": "26dcca8060a3b0782ac7fc3f266579209b36b6122f093301e3625791b40ce52a",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "assembly-contact.jpg",
+      "bytes": 210462,
+      "sha256": "83cacf65810718660a2af992b29b8058325e71ff2d2a189bb68ba5f13661a847",
+      "pixels": [
+        1920,
+        828
+      ]
+    },
+    {
+      "file": "assembly-film.mp4",
+      "bytes": 3318856,
+      "sha256": "b381b15ab9bf8f3760064e0755e11e89322cbafb99fa2412a84e3a1d693fac2c"
+    },
+    {
+      "file": "beauty-day.png",
+      "bytes": 2583904,
+      "sha256": "81df100e74f1fde9ce9c6a5af84a19d25f25a78d07c9177a1fe5de639842bcf1",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "beauty-night.png",
+      "bytes": 2356405,
+      "sha256": "fe9aa967f35b0af474c3b29a7154f8c7fa281a74c6ddbd2eadbeb047dd150780",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "blue.png",
+      "bytes": 2782498,
+      "sha256": "dccfafb409b73ee8ab24abb94ef0fea5b4cc34e9049f88f6d426fc10cfb9b8f2",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "day-night-contact.jpg",
+      "bytes": 83620,
+      "sha256": "9ce4005c92a96024d82fc60d86c90593cd68535acd81d45ad2af258afa54cac3",
+      "pixels": [
+        960,
+        828
+      ]
+    },
+    {
+      "file": "day.png",
+      "bytes": 2961564,
+      "sha256": "e0d24e2b76d9c6cd4fc7f9f701ce01cd39a25be7f16c6fb935b73ac3a358ffef",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "detail.png",
+      "bytes": 2704666,
+      "sha256": "ac8a6532a76af9d37ad4ae9d395d974ef74ef4314b3a984ded12253edca69515",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "district.png",
+      "bytes": 3652288,
+      "sha256": "87730ed2599f7f8bccda9b96d671985bff612f5b3b922a957d8f15da9557346c",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "explode-000.png",
+      "bytes": 1574016,
+      "sha256": "c9f9d5dbd48d720da3df4003d167a9a189efc811046a77aa136737a01fd58257",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "explode-090.png",
+      "bytes": 1576122,
+      "sha256": "5ba8c544385b81336f6cbc73a0a1c35baead0d0083720e69af301a592c931262",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "explode-180.png",
+      "bytes": 1580686,
+      "sha256": "7a7b783ff483d14065ad2ffc9a7c796ba5307c0815138d6346feee95e1d7029f",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "explode-270.png",
+      "bytes": 1589956,
+      "sha256": "a93a2e0603c1badb5cf74a231c642dcf8019ad0035613474f0103fe1c2175497",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "explode-360.png",
+      "bytes": 1588451,
+      "sha256": "2590beaedef0b2d235e75a3c7ac36f4510db42e6d7b36bf06e1590d8771ad7c7",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "explode-contact.jpg",
+      "bytes": 142151,
+      "sha256": "deb05d896981d05451134fe8212e57c84309ff3a57b1e9f34c17bb74c949e2de",
+      "pixels": [
+        1440,
+        828
+      ]
+    },
+    {
+      "file": "explode-film.mp4",
+      "bytes": 870004,
+      "sha256": "09c9cf17afff70bca7664f6f5ee6e8349be2fa5356e9151029480cafe9122aab"
+    },
+    {
+      "file": "glb-roundtrip.png",
+      "bytes": 1395739,
+      "sha256": "7194ca9635a837736b3bdc5c4f862865ca978e615c22849f051e35300f98b5c5",
+      "pixels": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "low.png",
+      "bytes": 2699132,
+      "sha256": "67aed9d5c79c01ea16d3bc4a2868942679bc6ca5e365637b0b5a48f5ae0a36ea",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "night.png",
+      "bytes": 2766777,
+      "sha256": "b11dcb147e393b89f633dce7b5eb3ff4ca6585744600277091df64554d6c2448",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "portfolio-board.jpg",
+      "bytes": 884680,
+      "sha256": "4e8ef410be62fe9e5ad8e38d0fe7fcdc45941f86347513f7d367577fc5133273",
+      "pixels": [
+        2400,
+        2200
+      ]
+    },
+    {
+      "file": "rear.png",
+      "bytes": 2961319,
+      "sha256": "512be1954796c672cfd03df718b2025365fe020f782b2ca31d1141bb8521cc29",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "sunset.png",
+      "bytes": 2993398,
+      "sha256": "62a18e841ae2ff0bc92d809cfb3c7a3ffd176c9683a8f75adc75dcb7e42eda23",
+      "pixels": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "file": "views-contact.jpg",
+      "bytes": 129053,
+      "sha256": "924760f81bcc9736830252946f6041f3b8794a573f0170ddc9d15f6471f71ed7",
+      "pixels": [
+        1440,
+        828
+      ]
+    }
+  ]
+}

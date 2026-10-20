@@ -1,0 +1,136 @@
+{
+  "files": [
+    {
+      "file": "models/pisa-tower/pisa-tower.glb",
+      "bytes": 21598400,
+      "sha256": "d540423ca8afb433984ffb7432698c2b56e3d3c6bdb4aacff514bac034247b65",
+      "triangles": 397636,
+      "nodes": 451,
+      "meshes": 226,
+      "primitives": 461,
+      "materials": 8,
+      "images": 4,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "validator_errors": 0,
+      "validator_warnings": 0,
+      "animation": {}
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower-assembly.glb",
+      "bytes": 29292296,
+      "sha256": "ed8447344b12f2d60ab61f720b25b419ff2bcc726b8c535a0e7ffa5e7dfdb237",
+      "triangles": 397636,
+      "nodes": 451,
+      "meshes": 226,
+      "primitives": 461,
+      "materials": 8,
+      "images": 4,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "validator_errors": 0,
+      "validator_warnings": 0,
+      "animation": {
+        "maximum_component_error": 5.551115123125783e-16,
+        "hold_drift": 0,
+        "root_channels": 0,
+        "duration_s": 28,
+        "channels": 672
+      }
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower-explode.glb",
+      "bytes": 24988904,
+      "sha256": "d1a03b68eadffe3d546f9fc65638f9dee0b11bf92cad0a0b85bb23dd59d45e85",
+      "triangles": 397636,
+      "nodes": 451,
+      "meshes": 226,
+      "primitives": 461,
+      "materials": 8,
+      "images": 4,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "validator_errors": 0,
+      "validator_warnings": 0,
+      "animation": {
+        "maximum_component_error": 5.551115123125783e-16,
+        "hold_drift": 0,
+        "root_channels": 0,
+        "duration_s": 12,
+        "channels": 672
+      }
+    },
+    {
+      "file": "model-assets/geo-context/pisa-1000-v1/district.glb",
+      "bytes": 38471696,
+      "sha256": "1cd6db8dc0ae8347715239dba2b79de2c13036186e72f047f23b2abbc83130ac",
+      "triangles": 491804,
+      "nodes": 41,
+      "meshes": 40,
+      "primitives": 179,
+      "materials": 20,
+      "images": 16,
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ],
+      "validator_errors": 0,
+      "validator_warnings": 0,
+      "animation": {}
+    }
+  ],
+  "parts": 224,
+  "peak_moving_parts": 25,
+  "flight_octants": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "root_fixed": true,
+  "motion": {
+    "BUILD_ASSEMBLY": {
+      "envelope_gltf_m": [
+        [
+          -72.38638391413518,
+          -0.3599999999999995,
+          -71.8627805382586
+        ],
+        [
+          69.72587682447455,
+          93.37690315288353,
+          71.83779597467854
+        ]
+      ],
+      "sampled_fps": 30,
+      "random_sampling_pause_replay": "deterministic pure function"
+    },
+    "BUILD_EXPLODE": {
+      "envelope_gltf_m": [
+        [
+          -22.882652435039624,
+          -0.36,
+          -20.51098352351135
+        ],
+        [
+          20.361218187704996,
+          99.89999740600587,
+          20.90000009536743
+        ]
+      ],
+      "sampled_fps": 30,
+      "random_sampling_pause_replay": "deterministic pure function"
+    }
+  },
+  "limitations": [
+    "Conservative AABBs do not prove collision-free physical assembly; artistic paths and schematic interior.",
+    "No target-engine browser/GPU acceptance performed.",
+    "Terrain height is ellipsoid demonstration zero, not surveyed."
+  ]
+}

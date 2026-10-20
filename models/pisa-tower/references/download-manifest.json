@@ -1,0 +1,467 @@
+{
+  "collected": "2026-10-20",
+  "files": [
+    {
+      "file": "restricted/tower-01.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/04/31.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        1920,
+        350
+      ],
+      "bytes": 213620,
+      "sha256": "21e02fdfb0bbb93b68a5052dd62a3b5fb2d25440d1daa931de64a87becd3de00"
+    },
+    {
+      "file": "restricted/tower-02.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9587rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 139686,
+      "sha256": "65b675af1d270ac8328b241c3acc12c00ffed65f0176664ddfd558cbc82184f4"
+    },
+    {
+      "file": "restricted/tower-03.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_0097rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 153937,
+      "sha256": "3344d46a1b3f2e376da7ce1fbec63827efb4345491c09f1deeb5121399bea163"
+    },
+    {
+      "file": "restricted/tower-04.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9587rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 139686,
+      "sha256": "65b675af1d270ac8328b241c3acc12c00ffed65f0176664ddfd558cbc82184f4"
+    },
+    {
+      "file": "restricted/tower-05.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9609rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158824,
+      "sha256": "9b862290031fc50254166f9c888aad69139aeace20872bf98f9a7da04a0f3b12"
+    },
+    {
+      "file": "restricted/tower-06.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9614rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158613,
+      "sha256": "51bc4abadcbdfef98fc4e16363a39ee660a6dd96b3f5d0865eb089627ef09ab1"
+    },
+    {
+      "file": "restricted/tower-07.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9626rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158101,
+      "sha256": "0c5905002c5bebaf4d5c70b058ca4bf5957e91bc52c77059751b43dc41bd415e"
+    },
+    {
+      "file": "restricted/tower-08.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9649rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 165526,
+      "sha256": "1fce817ea04dab3e104d08e3dc05c19c29f8fd5e8340ea9b3346c34e1781c9eb"
+    },
+    {
+      "file": "restricted/tower-09.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9661rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 179866,
+      "sha256": "36faa6099696f6f3e52ebfc82e8cec73a7d7e198d43bf9f30933cb7d3108d9dd"
+    },
+    {
+      "file": "restricted/tower-10.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9675rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 171804,
+      "sha256": "f891a2f5a44a0e9423780c681dd6ec54594255fe3abea1480e40afff1b68d542"
+    },
+    {
+      "file": "restricted/tower-11.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/05/MG_9676rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 152279,
+      "sha256": "4073a702ec2b03e153de89ab53a0f346f352f507be86c5edd5c9d905e441388d"
+    },
+    {
+      "file": "restricted/tower-details-01.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/11/MG_1004_cornice.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        3840,
+        700
+      ],
+      "bytes": 315104,
+      "sha256": "ae9c0799380621cc060d0687b32c34967b9aa6b494259f9ac960ca797dcddff0"
+    },
+    {
+      "file": "restricted/tower-details-02.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9587rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 139686,
+      "sha256": "65b675af1d270ac8328b241c3acc12c00ffed65f0176664ddfd558cbc82184f4"
+    },
+    {
+      "file": "restricted/tower-details-03.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9609rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158824,
+      "sha256": "9b862290031fc50254166f9c888aad69139aeace20872bf98f9a7da04a0f3b12"
+    },
+    {
+      "file": "restricted/tower-details-04.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9614rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158613,
+      "sha256": "51bc4abadcbdfef98fc4e16363a39ee660a6dd96b3f5d0865eb089627ef09ab1"
+    },
+    {
+      "file": "restricted/tower-details-05.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9626rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 158101,
+      "sha256": "0c5905002c5bebaf4d5c70b058ca4bf5957e91bc52c77059751b43dc41bd415e"
+    },
+    {
+      "file": "restricted/tower-details-06.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9649rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 165526,
+      "sha256": "1fce817ea04dab3e104d08e3dc05c19c29f8fd5e8340ea9b3346c34e1781c9eb"
+    },
+    {
+      "file": "restricted/tower-details-07.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9661rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 179866,
+      "sha256": "36faa6099696f6f3e52ebfc82e8cec73a7d7e198d43bf9f30933cb7d3108d9dd"
+    },
+    {
+      "file": "restricted/tower-details-08.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9675rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 171804,
+      "sha256": "f891a2f5a44a0e9423780c681dd6ec54594255fe3abea1480e40afff1b68d542"
+    },
+    {
+      "file": "restricted/tower-details-09.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9676rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 152279,
+      "sha256": "4073a702ec2b03e153de89ab53a0f346f352f507be86c5edd5c9d905e441388d"
+    },
+    {
+      "file": "restricted/tower-details-10.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9695rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 101491,
+      "sha256": "2886cd4773adfb5998363abd4333c3d90d8d6e320ffb8cb3d52a685716abd9cf"
+    },
+    {
+      "file": "restricted/tower-details-11.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9730rw720.jpg",
+      "source_page": "https://www.opapisa.it/visita/torre-pendente/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "tower-details photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 166522,
+      "sha256": "be6931dc19180d8e4dc8ea8fd4946cacff9bff01e1f27d0324fb25cf53cad909"
+    },
+    {
+      "file": "restricted/cathedral-01.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/04/1.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/cathedral/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "cathedral photographic reference",
+      "pixels": [
+        1920,
+        350
+      ],
+      "bytes": 250922,
+      "sha256": "700944d8dde9bcce73580fbcbd60f4d9b298f241624abdac1d996ce4c1bae184"
+    },
+    {
+      "file": "restricted/cathedral-02.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_0007rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/cathedral/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "cathedral photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 150695,
+      "sha256": "5922bfe7365fef4c71f3f55b5f342ffbf902ed8b732b1f221d74572b66fc9ea5"
+    },
+    {
+      "file": "restricted/baptistery-01.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/11/MG_0994_cornice.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/baptistery/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "baptistery photographic reference",
+      "pixels": [
+        3840,
+        700
+      ],
+      "bytes": 410279,
+      "sha256": "4ca320e51b2358e659ab1bd41abe9c0d7378ffdb641c7187af6d7d6d53d4df88"
+    },
+    {
+      "file": "restricted/baptistery-02.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_9993rw720.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/baptistery/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "baptistery photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 182762,
+      "sha256": "9529d58643a55cdafe3a815b12680146e19a5c3cc2e6071f2897dd3f28d20cb1"
+    },
+    {
+      "file": "restricted/cemetery-01.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2015/04/81.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/camposanto/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "cemetery photographic reference",
+      "pixels": [
+        1920,
+        350
+      ],
+      "bytes": 192964,
+      "sha256": "11937cd58299ec9ecf67826fa7c6ea3fffd63d39772b47f5763cfc5a0151d870"
+    },
+    {
+      "file": "restricted/cemetery-02.jpg",
+      "url": "https://www.opapisa.it/wp-content/uploads/2014/11/MG_2783rw1.jpg",
+      "source_page": "https://www.opapisa.it/en/square-of-miracles/camposanto/",
+      "author": "Opera della Primaziale Pisana / credited photographer on source page",
+      "license": "Copyright retained; local research and user acceptance only; excluded from Git",
+      "use": "cemetery photographic reference",
+      "pixels": [
+        720,
+        450
+      ],
+      "bytes": 175039,
+      "sha256": "fd92b95a01f543b4c9b18c38240f6c603740867d41d3b001403b96fc0c2b8521"
+    },
+    {
+      "file": "grassi-elevation-section.jpg",
+      "url": "https://cdn.loc.gov/service/pnp/pga/10800/10824v.jpg",
+      "author": "Raniero Grassi / Library of Congress, LCCN 2003688771",
+      "license": "Public domain / no known restrictions on publication",
+      "use": "Historical elevation and cutaway; historic lean is not current survey",
+      "bytes": 384485,
+      "sha256": "b780020d476bc6eb88bcc3a2de41e59bc29df16b0528729de77c910ea1f20ced"
+    },
+    {
+      "file": "restricted/isprs-survey-2003.pdf",
+      "url": "https://www.isprs.org/proceedings/xxxiv/5-W12/proceedings/04.pdf",
+      "author": "ISPRS 2003 proceedings, paper 04",
+      "license": "Local research copy only; excluded from Git",
+      "use": "Photogrammetric north-south section, curvature, survey method",
+      "bytes": 1619122,
+      "sha256": "355c9658dc086d76f0764376aa7d836e3045cd45cdcbde51bf81f03545e10c56"
+    },
+    {
+      "file": "restricted/overall-terredipisa.jpg",
+      "url": "https://www.terredipisa.it/wp-content/uploads/2022/11/torre-di-pisa.jpg",
+      "author": "Terre di Pisa, tower arcade detail",
+      "license": "Copyright retained; local research and acceptance only; excluded from Git",
+      "use": "Terre di Pisa, tower arcade detail",
+      "pixels": [
+        1920,
+        700
+      ],
+      "bytes": 128788,
+      "sha256": "4829a5b66e6c9d45bed8fa2db48d54a889fff38d4fbf052b01a0b4988da1cf2f"
+    },
+    {
+      "file": "restricted/full-tower-municipal.jpg",
+      "url": "https://www.turismo.pisa.it/sites/default/files/immagini/schede-luogo/Torre%20di%20Pisa%20PRIMAZIALE.PISA_.01.20.044.jpg",
+      "author": "Opera Primaziale Pisana via Comune di Pisa, east-side whole tower",
+      "license": "Copyright retained; local research and acceptance only; excluded from Git",
+      "use": "Opera Primaziale Pisana via Comune di Pisa, east-side whole tower",
+      "pixels": [
+        1224,
+        902
+      ],
+      "bytes": 946586,
+      "sha256": "9b040867dd14d04581f26f22575e7097f81b61363a3757289a03dbc2e3942c7f"
+    },
+    {
+      "file": "restricted/tower-cathedral-municipal.jpg",
+      "url": "https://www.turismo.pisa.it/sites/default/files/immagini/schede-luogo/torre-cattedrale.jpg",
+      "author": "Comune di Pisa, tower and cathedral",
+      "license": "Copyright retained; local research and acceptance only; excluded from Git",
+      "use": "Comune di Pisa, tower and cathedral",
+      "pixels": [
+        2000,
+        600
+      ],
+      "bytes": 268815,
+      "sha256": "b579e323bed5399278ea5fcb244de3a6979f2b4df6f1574b6b447158663d7f94"
+    },
+    {
+      "file": "restricted/square-panorama-municipal.jpg",
+      "url": "https://www.turismo.pisa.it/sites/default/files/immagini/schede-luogo/Veduta%20piazza%20del%20Duomo_0.jpg",
+      "author": "Comune di Pisa, Piazza del Duomo panorama",
+      "license": "Copyright retained; local research and acceptance only; excluded from Git",
+      "use": "Comune di Pisa, Piazza del Duomo panorama",
+      "pixels": [
+        995,
+        1500
+      ],
+      "bytes": 364688,
+      "sha256": "23789673e82001f4fbc68a95c9506b33cef3ae105c4e7c02949c99d9c5754297"
+    }
+  ]
+}

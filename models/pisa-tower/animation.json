@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "standard_id": "CS-AM-1",
+  "fps": 30,
+  "time_origin": "clip_start_seconds",
+  "clips": [
+    {
+      "file": "pisa-tower-assembly.glb",
+      "name": "BUILD_ASSEMBLY",
+      "frame_start": 0,
+      "frame_end": 840,
+      "duration_s": 28,
+      "hold_start_s": 24,
+      "initial_state": "empty_building",
+      "final_state": "assembled",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 672,
+      "samples_per_channel": 841
+    },
+    {
+      "file": "pisa-tower-explode.glb",
+      "name": "BUILD_EXPLODE",
+      "frame_start": 0,
+      "frame_end": 360,
+      "duration_s": 12,
+      "hold_start_s": 9,
+      "initial_state": "assembled",
+      "final_state": "exploded",
+      "default_node_pose": "assembled",
+      "loop": false,
+      "channels": 672,
+      "samples_per_channel": 361
+    }
+  ],
+  "parts_file": "parts.json",
+  "seed": 1173
+}

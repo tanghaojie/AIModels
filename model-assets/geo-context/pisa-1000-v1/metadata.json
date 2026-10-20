@@ -1,0 +1,33 @@
+{
+  "id": "pisa-1000-v1",
+  "source": "OpenStreetMap via Overpass",
+  "timestamp": "2026-10-20T15:50:57Z",
+  "radius_m": 1000,
+  "building_count": 2664,
+  "road_sections": 2027,
+  "rendered_road_polygons": 80,
+  "green_polygons": 203,
+  "rendered_green_polygons": 179,
+  "source_tree_positions": 835,
+  "height_methods": {
+    "floors_estimate": 642,
+    "type_estimate": 1997,
+    "source_height": 25
+  },
+  "excluded_subject": "relation/12982355",
+  "landmark_replacements": [
+    154289,
+    12982355,
+    22945162,
+    22945163
+  ],
+  "axis": "Blender +X north, +Y west, +Z up",
+  "terrain": "Ellipsoid demonstration, height=0; no measured terrain",
+  "notice": "Real geographic building/street outlines; missing heights, roof profiles, facade windows and planting forms are visualization estimates, not photogrammetry.",
+  "attribution": [
+    {
+      "text": "© OpenStreetMap contributors · ODbL-1.0",
+      "url": "https://www.openstreetmap.org/copyright"
+    }
+  ]
+}

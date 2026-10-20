@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "version": "1.1",
+    "copyright": "\u00a9 OpenStreetMap contributors / ODbL-1.0; AIModels architectural reconstruction"
+  },
+  "geometricError": 2000,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        0,
+        0,
+        25,
+        1002,
+        0,
+        0,
+        0,
+        1002,
+        0,
+        0,
+        0,
+        26
+      ]
+    },
+    "transform": [
+      -0.6798250381594027,
+      -0.12472994010501405,
+      0.722689670282457,
+      0,
+      0.18046133482534124,
+      -0.9835820792557457,
+      0,
+      0,
+      0.7108246085530684,
+      0.13041754256365795,
+      0.6911726560469776,
+      0,
+      4541003.699453844,
+      833154.2494860541,
+      4385901.179812109,
+      1
+    ],
+    "geometricError": 0,
+    "refine": "REPLACE",
+    "content": {
+      "uri": "district.glb"
+    }
+  }
+}

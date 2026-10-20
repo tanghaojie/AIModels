@@ -1,0 +1,6 @@
+*.blend1
+*.log
+__pycache__/
+references/restricted/
+previews/frames/
+previews/*draft*

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "pisa-tower",
+  "label": "比萨斜塔 · 奇迹广场",
+  "description": "倾斜空心石塔、六层开放柱廊、207柱头与七口钟，配套半径1000米比萨街区；独立八向飞入组装与爆炸动画。",
+  "updatedAt": "2026-10-21",
+  "model": {"url": "pisa-tower.glb"},
+  "variants": [],
+  "defaultMode": "static",
+  "defaultVariant": "original",
+  "modes": [
+    {"id": "assembly", "label": "八向飞入拼装", "model": {"url": "pisa-tower-assembly.glb"}, "variants": [], "defaultVariant": "original"},
+    {"id": "explode", "label": "爆炸分解", "model": {"url": "pisa-tower-explode.glb"}, "variants": [], "defaultVariant": "original"}
+  ],
+  "placement": {
+    "crs": "EPSG:4326",
+    "coordinateSource": "manifest",
+    "terrain": "ellipsoid",
+    "longitude": 10.396632399767856,
+    "latitude": 43.723006582756064,
+    "height": 0,
+    "scale": 1,
+    "heading": 0,
+    "pitch": 0,
+    "roll": 0,
+    "notice": "OSM斜塔占地中心参考锚点；真实椭球高未知，0为椭球场景展示高度。主体按照片/历史剖面重建；街区轮廓来自OSM，多数高度/屋面/立面为展示估算。"
+  },
+  "resources": [
+    {"id": "pisa-district-1000", "label": "半径1000米比萨街区", "kind": "3d-tiles", "url": "../../model-assets/geo-context/pisa-1000-v1/tileset.json", "required": true, "dayNight": true}
+  ],
+  "attribution": [
+    {"text": "比萨斜塔 / 奇迹广场；AIModels独立建筑展示重建。资料：Opera della Primaziale Pisana", "url": "https://www.opapisa.it/en/square-of-miracles/tower/"},
+    {"text": "© OpenStreetMap contributors · ODbL-1.0", "url": "https://www.openstreetmap.org/copyright"},
+    {"text": "历史剖面：Raniero Grassi / Library of Congress, public domain", "url": "https://lccn.loc.gov/2003688771"}
+  ],
+  "thumbnail": "previews/day.png"
+}

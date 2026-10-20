@@ -1,0 +1,22 @@
+{
+  "static_file": "pisa-tower.glb",
+  "imported_meshes": 226,
+  "metadata_roots": 1,
+  "all_materials_have_principled_nodes": true,
+  "no_imported_lights_cameras_animation": true,
+  "bounds_blender_m": [
+    [
+      -13.0,
+      -13.0,
+      -0.36000001430511475
+    ],
+    [
+      13.0,
+      13.0,
+      56.29999923706055
+    ]
+  ],
+  "editable_actions": 448,
+  "maximum_source_keyframe_position_error_m": 6.882200608515632e-06,
+  "comparison": "GLB roundtrip rendered in Blender; not target-engine acceptance"
+}

@@ -1,0 +1,8 @@
+{
+  "method": "Conservative part AABB vs approximate neighbor footprint/height, 20 Hz during active flight",
+  "clearance_repaired_parts": 22,
+  "clearance_height_m": 85,
+  "parts_with_possible_overlap": [],
+  "physical_collision_free_claim": false,
+  "note": "No broad-phase neighbour overlap after clearance repair; not exact part-vs-part or physical construction validation."
+}

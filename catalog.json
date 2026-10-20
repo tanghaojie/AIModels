@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "models": [
     {
       "id": "beijing-ncpa",
@@ -88,6 +88,30 @@
       "defaultVariant": "original",
       "modes": [],
       "thumbnail": "models/chengdu-tianfu-airport/preview-day.png"
+    },
+    {
+      "id": "pisa-tower",
+      "label": "比萨斜塔 · 奇迹广场",
+      "description": "倾斜空心石塔、六层开放柱廊、207柱头与七口钟，配套半径1000米比萨街区；独立八向飞入组装与爆炸动画。",
+      "manifest": "models/pisa-tower/model.json",
+      "variants": [],
+      "defaultMode": "static",
+      "defaultVariant": "original",
+      "modes": [
+        {
+          "id": "assembly",
+          "label": "八向飞入拼装",
+          "defaultVariant": "original",
+          "variants": []
+        },
+        {
+          "id": "explode",
+          "label": "爆炸分解",
+          "defaultVariant": "original",
+          "variants": []
+        }
+      ],
+      "thumbnail": "models/pisa-tower/previews/day.png"
     },
     {
       "id": "shanghai-tower",

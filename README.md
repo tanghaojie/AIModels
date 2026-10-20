@@ -37,6 +37,7 @@ models/
   beijing-ncpa/
   wangjing-soho/
   burj-khalifa/
+  pisa-tower/
 model-assets/
   geo-context/
 tools/

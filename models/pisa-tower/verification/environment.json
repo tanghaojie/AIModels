@@ -1,0 +1,15 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "blender": "5.2.1 LTS",
+  "packages": {
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "requests": "2.34.2",
+    "Shapely": "2.2.0",
+    "pyproj": "3.8.0",
+    "mapbox-earcut": "2.1.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "ffmpeg": "7.1 imageio-ffmpeg bundled Windows binary",
+  "platform": "win32"
+}

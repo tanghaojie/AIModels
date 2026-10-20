@@ -1,0 +1,17 @@
+{
+  "method": "Fresh factory-startup Blender rebuild in isolated directory, saved recipe and textures; deterministic UV-derived tangents",
+  "files": [
+    {
+      "file": "models/pisa-tower/pisa-tower.glb",
+      "sha256": "d540423ca8afb433984ffb7432698c2b56e3d3c6bdb4aacff514bac034247b65",
+      "rebuilt_sha256": "d540423ca8afb433984ffb7432698c2b56e3d3c6bdb4aacff514bac034247b65",
+      "byte_identical": true
+    },
+    {
+      "file": "model-assets/geo-context/pisa-1000-v1/district.glb",
+      "sha256": "1cd6db8dc0ae8347715239dba2b79de2c13036186e72f047f23b2abbc83130ac",
+      "rebuilt_sha256": "1cd6db8dc0ae8347715239dba2b79de2c13036186e72f047f23b2abbc83130ac",
+      "byte_identical": true
+    }
+  ]
+}

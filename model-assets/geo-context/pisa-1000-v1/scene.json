@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "id": "pisa-1000-v1",
+  "label": "比萨 · 半径1000米真实轮廓街区",
+  "anchor": {
+    "longitude_wgs84": 10.396632399767856,
+    "latitude_wgs84": 43.723006582756064
+  },
+  "model": {
+    "url": "https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower.glb"
+  },
+  "context": {
+    "url": "tileset.json",
+    "terrain": "ellipsoid",
+    "maximum_anchor_distance_m": 5
+  },
+  "attribution": [
+    {
+      "text": "© OpenStreetMap contributors · ODbL-1.0",
+      "url": "https://www.openstreetmap.org/copyright"
+    }
+  ],
+  "notice": "真实建筑/路网轮廓；多数高度、屋面、立面为展示估算；椭球高0为演示值。"
+}

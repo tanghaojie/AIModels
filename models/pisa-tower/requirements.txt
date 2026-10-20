@@ -1,0 +1,7 @@
+numpy==2.5.3
+Pillow==12.3.0
+requests==2.34.2
+Shapely==2.2.0
+pyproj==3.8.0
+mapbox-earcut==2.1.0
+imageio-ffmpeg==0.6.0

@@ -1,0 +1,13 @@
+{
+  "geo_metadata_version": 1,
+  "longitude_wgs84": 10.396632399767856,
+  "latitude_wgs84": 43.723006582756064,
+  "horizontal_crs": "EPSG:4326",
+  "vertical_reference": "WGS84_ELLIPSOID",
+  "coordinate_source": "OSM relation/12982355 footprint centroid, snapshot 2026-10-20T15:50:57Z",
+  "coordinate_accuracy": "reference",
+  "height_source": "terrain_at_load",
+  "units": "meters",
+  "local_origin": "ground_at_tower_footprint_centroid",
+  "height_m": 56.3
+}
