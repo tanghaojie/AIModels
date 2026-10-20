@@ -43,9 +43,9 @@ def tileset():
     # glTF Y-up->3D Tiles Z-up is performed by the standard tile content transform.
     transform=[*north,0,*west,0,*up,0,*origin,1]
     d=dict(asset=dict(version='1.1',copyright='© OpenStreetMap contributors / ODbL-1.0; AIModels architectural reconstruction'),geometricError=2000,root=dict(boundingVolume=dict(box=[0,0,25,1002,0,0,0,1002,0,0,0,26]),transform=transform,geometricError=0,refine='REPLACE',content=dict(uri='district.glb')))
-    (OUT/'tileset.json').write_text(json.dumps(d,indent=2)+'\n',encoding='utf-8')
+    (OUT/'tileset.json').write_text(json.dumps(d,indent=2)+'\n',encoding='utf-8',newline='\n')
     scene=dict(version=1,id='pisa-1000-v1',label='比萨 · 半径1000米真实轮廓街区',anchor=dict(longitude_wgs84=lon,latitude_wgs84=lat),model=dict(url='https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower.glb'),context=dict(url='tileset.json',terrain='ellipsoid',maximum_anchor_distance_m=5),attribution=[dict(text='© OpenStreetMap contributors · ODbL-1.0',url='https://www.openstreetmap.org/copyright')],notice='真实建筑/路网轮廓；多数高度、屋面、立面为展示估算；椭球高0为演示值。')
-    (OUT/'scene.json').write_text(json.dumps(scene,ensure_ascii=False,indent=2),encoding='utf-8')
+    (OUT/'scene.json').write_text(json.dumps(scene,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 
 def main():
     clips=[animation('BUILD_ASSEMBLY',28,'assembly'),animation('BUILD_EXPLODE',12,'explode')]

@@ -22,3 +22,5 @@
 夜景石材的实际泛光来自Blender PREVIEW_ONLY面积灯；GLB只保留静态灯片/窗灯，不会由发光自动照亮相邻面。未运行Cyber-Sight前端/浏览器自动化；目标引擎的地形、实际昼夜、加载、播放和性能仍由维护者人工验收。
 
 部署委托的线上证据在deployment.json（发布成功后生成），以准确Git提交的Vercel状态、生产URL的HTTP/MIME/CORS和完整下载SHA256为准。Vercel连接器无目标团队权限，未冒称取得Vercel内部READY响应；通过GitHub集成的Vercel success状态核对自动发布完成。
+
+2026-10-21（Asia/Singapore）实际发布核验：资产提交 `99d584094eb39ea5601c7df99d4eae940d108101` 的Vercel状态为success / “Deployment has completed”。13个生产URL，包括三种主体GLB、街区GLB、Blender源工程、两段影片、目录/定位入口及预览，HTTP200、MIME/CORS、完整字节数与SHA256全部匹配。该记录标识资产发布提交；随后证据提交保留相同资产字节。

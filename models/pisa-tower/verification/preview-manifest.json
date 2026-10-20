@@ -224,8 +224,8 @@
     },
     {
       "file": "glb-roundtrip.png",
-      "bytes": 1395739,
-      "sha256": "7194ca9635a837736b3bdc5c4f862865ca978e615c22849f051e35300f98b5c5",
+      "bytes": 1395539,
+      "sha256": "2ea75819df6de8e4286d56377b0bbabe74e6a116f13b4c51d2121a89f61ff5b7",
       "pixels": [
         1200,
         900

@@ -17,6 +17,6 @@
     ]
   ],
   "editable_actions": 448,
-  "maximum_source_keyframe_position_error_m": 6.882200608515632e-06,
+  "maximum_source_keyframe_position_error_m": 6.996126746372511e-06,
   "comparison": "GLB roundtrip rendered in Blender; not target-engine acceptance"
 }

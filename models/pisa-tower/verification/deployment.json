@@ -1,0 +1,132 @@
+{
+  "verified_at_utc": "2026-10-20T16:42:10Z",
+  "asset_commit": "99d584094eb39ea5601c7df99d4eae940d108101",
+  "vercel": {
+    "commit": "99d584094eb39ea5601c7df99d4eae940d108101",
+    "state": "success",
+    "description": "Deployment has completed",
+    "url": "https://vercel.com/tanghaojies-projects/ai-models/AeXAYEebrtx6QhMC6HTF6yKGhS84",
+    "updated_at": "2026-10-20T16:41:29Z",
+    "source": "GitHub Vercel commit status; Vercel API access unavailable"
+  },
+  "files": [
+    {
+      "file": "catalog.json",
+      "url": "https://jt-ai-models.vercel.app/catalog.json",
+      "status": 200,
+      "mime": "application/json",
+      "cors": "*",
+      "bytes": 5765,
+      "sha256": "8c9cf8478c80ffdcd19a16d7c3b6c714a3baab3e23a3d3e9be6a259049590cc6"
+    },
+    {
+      "file": "models/pisa-tower/model.json",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/model.json",
+      "status": 200,
+      "mime": "application/json",
+      "cors": "*",
+      "bytes": 2401,
+      "sha256": "67e8dfada774e6a419185aac7736a36551a0fc45be45fc15ca6e12e84517835f"
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower.glb",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower.glb",
+      "status": 200,
+      "mime": "model/gltf-binary",
+      "cors": "*",
+      "bytes": 21598400,
+      "sha256": "d540423ca8afb433984ffb7432698c2b56e3d3c6bdb4aacff514bac034247b65"
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower-assembly.glb",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower-assembly.glb",
+      "status": 200,
+      "mime": "model/gltf-binary",
+      "cors": "*",
+      "bytes": 29292296,
+      "sha256": "ed8447344b12f2d60ab61f720b25b419ff2bcc726b8c535a0e7ffa5e7dfdb237"
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower-explode.glb",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower-explode.glb",
+      "status": 200,
+      "mime": "model/gltf-binary",
+      "cors": "*",
+      "bytes": 24988904,
+      "sha256": "d1a03b68eadffe3d546f9fc65638f9dee0b11bf92cad0a0b85bb23dd59d45e85"
+    },
+    {
+      "file": "models/pisa-tower/pisa-tower.blend",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/pisa-tower.blend",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "cors": "*",
+      "bytes": 26295579,
+      "sha256": "fbc06a933206604fa33d20fb43246f433eb035810d704cfbc7ea76cec43dd923"
+    },
+    {
+      "file": "model-assets/geo-context/pisa-1000-v1/tileset.json",
+      "url": "https://jt-ai-models.vercel.app/model-assets/geo-context/pisa-1000-v1/tileset.json",
+      "status": 200,
+      "mime": "application/json",
+      "cors": "*",
+      "bytes": 841,
+      "sha256": "7c69e79e1ea8bf043da3e0f7f0f528cff867e9d14824733d5f469ee05eb21c88"
+    },
+    {
+      "file": "model-assets/geo-context/pisa-1000-v1/scene.json",
+      "url": "https://jt-ai-models.vercel.app/model-assets/geo-context/pisa-1000-v1/scene.json",
+      "status": 200,
+      "mime": "application/json",
+      "cors": "*",
+      "bytes": 674,
+      "sha256": "42d85f337c778896ae1930bbc409cf5594d523ecd8734fcbc7fa276627f3fde5"
+    },
+    {
+      "file": "model-assets/geo-context/pisa-1000-v1/district.glb",
+      "url": "https://jt-ai-models.vercel.app/model-assets/geo-context/pisa-1000-v1/district.glb",
+      "status": 200,
+      "mime": "model/gltf-binary",
+      "cors": "*",
+      "bytes": 38471696,
+      "sha256": "1cd6db8dc0ae8347715239dba2b79de2c13036186e72f047f23b2abbc83130ac"
+    },
+    {
+      "file": "models/pisa-tower/previews/day.png",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/previews/day.png",
+      "status": 200,
+      "mime": "image/png",
+      "cors": "*",
+      "bytes": 2961564,
+      "sha256": "e0d24e2b76d9c6cd4fc7f9f701ce01cd39a25be7f16c6fb935b73ac3a358ffef"
+    },
+    {
+      "file": "models/pisa-tower/previews/portfolio-board.jpg",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/previews/portfolio-board.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "cors": "*",
+      "bytes": 884680,
+      "sha256": "4e8ef410be62fe9e5ad8e38d0fe7fcdc45941f86347513f7d367577fc5133273"
+    },
+    {
+      "file": "models/pisa-tower/previews/assembly-film.mp4",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/previews/assembly-film.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "cors": "*",
+      "bytes": 3318856,
+      "sha256": "b381b15ab9bf8f3760064e0755e11e89322cbafb99fa2412a84e3a1d693fac2c"
+    },
+    {
+      "file": "models/pisa-tower/previews/explode-film.mp4",
+      "url": "https://jt-ai-models.vercel.app/models/pisa-tower/previews/explode-film.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "cors": "*",
+      "bytes": 870004,
+      "sha256": "09c9cf17afff70bca7664f6f5ee6e8349be2fa5356e9151029480cafe9122aab"
+    }
+  ],
+  "frontend_acceptance": "Not performed; maintainer manual acceptance required"
+}
